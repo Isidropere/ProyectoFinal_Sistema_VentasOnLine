@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="COMPUVENTASModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="COMPUVENTASEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="tb_categoria" EntityType="COMPUVENTASModel.tb_categoria" />
+    <EntitySet Name="tb_distrito" EntityType="COMPUVENTASModel.tb_distrito" />
+    <EntitySet Name="tb_producto" EntityType="COMPUVENTASModel.tb_producto" />
+    <EntitySet Name="tb_proveedor" EntityType="COMPUVENTASModel.tb_proveedor" />
+    <EntitySet Name="tb_rol" EntityType="COMPUVENTASModel.tb_rol" />
+    <EntitySet Name="tb_usuario" EntityType="COMPUVENTASModel.tb_usuario" />
+    <EntitySet Name="tb_venta" EntityType="COMPUVENTASModel.tb_venta" />
+    <EntitySet Name="tb_ventaxproducto" EntityType="COMPUVENTASModel.tb_ventaxproducto" />
+    <AssociationSet Name="fk_tb_producto_tb_categoria" Association="COMPUVENTASModel.fk_tb_producto_tb_categoria">
+      <End Role="tb_categoria" EntitySet="tb_categoria" />
+      <End Role="tb_producto" EntitySet="tb_producto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_provee__Distr__1ED998B2" Association="COMPUVENTASModel.FK__tb_provee__Distr__1ED998B2">
+      <End Role="tb_distrito" EntitySet="tb_distrito" />
+      <End Role="tb_proveedor" EntitySet="tb_proveedor" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_usuari__idDis__1920BF5C" Association="COMPUVENTASModel.FK__tb_usuari__idDis__1920BF5C">
+      <End Role="tb_distrito" EntitySet="tb_distrito" />
+      <End Role="tb_usuario" EntitySet="tb_usuario" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tb_produc__Prove__22AA2996" Association="COMPUVENTASModel.FK__tb_produc__Prove__22AA2996">
+      <End Role="tb_proveedor" EntitySet="tb_proveedor" />
+      <End Role="tb_producto" EntitySet="tb_producto" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tb_ventaxproducto_tb_producto" Association="COMPUVENTASModel.fk_tb_ventaxproducto_tb_producto">
+      <End Role="tb_producto" EntitySet="tb_producto" />
+      <End Role="tb_ventaxproducto" EntitySet="tb_ventaxproducto" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tb_usuario_tb_rol" Association="COMPUVENTASModel.fk_tb_usuario_tb_rol">
+      <End Role="tb_rol" EntitySet="tb_rol" />
+      <End Role="tb_usuario" EntitySet="tb_usuario" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tb_producto_tb_usuario" Association="COMPUVENTASModel.fk_tb_producto_tb_usuario">
+      <End Role="tb_usuario" EntitySet="tb_usuario" />
+      <End Role="tb_venta" EntitySet="tb_venta" />
+    </AssociationSet>
+    <AssociationSet Name="fk_tb_ventaxproducto_tb_venta" Association="COMPUVENTASModel.fk_tb_ventaxproducto_tb_venta">
+      <End Role="tb_venta" EntitySet="tb_venta" />
+      <End Role="tb_ventaxproducto" EntitySet="tb_ventaxproducto" />
+    </AssociationSet>
+    <FunctionImport Name="registrarDetalleVenta">
+      <Parameter Name="idVenta" Mode="In" Type="Int32" />
+      <Parameter Name="idProducto" Mode="In" Type="Int32" />
+      <Parameter Name="cantidad" Mode="In" Type="Int32" />
+      <Parameter Name="precio" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="registrarUsuario">
+      <Parameter Name="correoUsuario" Mode="In" Type="String" />
+      <Parameter Name="claveUsuario" Mode="In" Type="String" />
+      <Parameter Name="nombresUsuario" Mode="In" Type="String" />
+      <Parameter Name="apePatUsuario" Mode="In" Type="String" />
+      <Parameter Name="apeMatUsuario" Mode="In" Type="String" />
+      <Parameter Name="dniUsuario" Mode="In" Type="String" />
+      <Parameter Name="fecNacimientoUsuario" Mode="In" Type="DateTime" />
+      <Parameter Name="telefonoUsuario" Mode="In" Type="String" />
+      <Parameter Name="celularUsuario" Mode="In" Type="String" />
+      <Parameter Name="idRol" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="registrarVenta">
+      <Parameter Name="idUsuario" Mode="In" Type="Int32" />
+      <Parameter Name="estadoVenta" Mode="In" Type="Boolean" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="tb_categoria">
+    <Key>
+      <PropertyRef Name="CategoriaId" />
+    </Key>
+    <Property Name="CategoriaId" Type="Int32" Nullable="false" />
+    <Property Name="descCategoria" Type="String" Nullable="false" MaxLength="60" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="tb_producto" Relationship="COMPUVENTASModel.fk_tb_producto_tb_categoria" FromRole="tb_categoria" ToRole="tb_producto" />
+  </EntityType>
+  <EntityType Name="tb_distrito">
+    <Key>
+      <PropertyRef Name="DistritoId" />
+    </Key>
+    <Property Name="DistritoId" Type="Int32" Nullable="false" />
+    <Property Name="nomdistrito" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="tb_proveedor" Relationship="COMPUVENTASModel.FK__tb_provee__Distr__1ED998B2" FromRole="tb_distrito" ToRole="tb_proveedor" />
+    <NavigationProperty Name="tb_usuario" Relationship="COMPUVENTASModel.FK__tb_usuari__idDis__1920BF5C" FromRole="tb_distrito" ToRole="tb_usuario" />
+  </EntityType>
+  <EntityType Name="tb_producto">
+    <Key>
+      <PropertyRef Name="idProducto" />
+    </Key>
+    <Property Name="idProducto" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="nomProducto" Type="String" Nullable="false" MaxLength="60" Unicode="false" FixedLength="false" />
+    <Property Name="descProducto" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="precioProducto" Type="Decimal" Nullable="false" Precision="16" Scale="3" />
+    <Property Name="stockProducto" Type="Int32" Nullable="false" />
+    <Property Name="idCategoria" Type="Int32" Nullable="false" />
+    <Property Name="estadoProducto" Type="Boolean" Nullable="false" />
+    <Property Name="ProveedorId" Type="Int32" />
+    <NavigationProperty Name="tb_categoria" Relationship="COMPUVENTASModel.fk_tb_producto_tb_categoria" FromRole="tb_producto" ToRole="tb_categoria" />
+    <NavigationProperty Name="tb_proveedor" Relationship="COMPUVENTASModel.FK__tb_produc__Prove__22AA2996" FromRole="tb_producto" ToRole="tb_proveedor" />
+    <NavigationProperty Name="tb_ventaxproducto" Relationship="COMPUVENTASModel.fk_tb_ventaxproducto_tb_producto" FromRole="tb_producto" ToRole="tb_ventaxproducto" />
+  </EntityType>
+  <EntityType Name="tb_proveedor">
+    <Key>
+      <PropertyRef Name="ProveedorId" />
+    </Key>
+    <Property Name="ProveedorId" Type="Int32" Nullable="false" />
+    <Property Name="razonSocialProveedor" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="direccionProveedor" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="telefonoProveedor" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="representanteProveedor" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="telefrepreProveedor" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="DistritoId" Type="Int32" />
+    <NavigationProperty Name="tb_distrito" Relationship="COMPUVENTASModel.FK__tb_provee__Distr__1ED998B2" FromRole="tb_proveedor" ToRole="tb_distrito" />
+    <NavigationProperty Name="tb_producto" Relationship="COMPUVENTASModel.FK__tb_produc__Prove__22AA2996" FromRole="tb_proveedor" ToRole="tb_producto" />
+  </EntityType>
+  <EntityType Name="tb_rol">
+    <Key>
+      <PropertyRef Name="idRol" />
+    </Key>
+    <Property Name="idRol" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="descRol" Type="String" Nullable="false" MaxLength="60" Unicode="false" FixedLength="false" />
+    <Property Name="estadoRol" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="tb_usuario" Relationship="COMPUVENTASModel.fk_tb_usuario_tb_rol" FromRole="tb_rol" ToRole="tb_usuario" />
+  </EntityType>
+  <EntityType Name="tb_usuario">
+    <Key>
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idUsuario" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="correoUsuario" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+    <Property Name="claveUsuario" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+    <Property Name="nombresUsuario" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="apePatUsuario" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="apeMatUsuario" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="dniUsuario" Type="String" Nullable="false" MaxLength="8" Unicode="false" FixedLength="false" />
+    <Property Name="fecNacimientoUsuario" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="telefonoUsuario" Type="String" MaxLength="9" Unicode="false" FixedLength="false" />
+    <Property Name="celularUsuario" Type="String" MaxLength="11" Unicode="false" FixedLength="false" />
+    <Property Name="idRol" Type="Int32" Nullable="false" />
+    <Property Name="verificadoUsuario" Type="Boolean" Nullable="false" />
+    <Property Name="estadoUsuario" Type="Boolean" Nullable="false" />
+    <Property Name="idDistrito" Type="Int32" />
+    <NavigationProperty Name="tb_distrito" Relationship="COMPUVENTASModel.FK__tb_usuari__idDis__1920BF5C" FromRole="tb_usuario" ToRole="tb_distrito" />
+    <NavigationProperty Name="tb_rol" Relationship="COMPUVENTASModel.fk_tb_usuario_tb_rol" FromRole="tb_usuario" ToRole="tb_rol" />
+    <NavigationProperty Name="tb_venta" Relationship="COMPUVENTASModel.fk_tb_producto_tb_usuario" FromRole="tb_usuario" ToRole="tb_venta" />
+  </EntityType>
+  <EntityType Name="tb_venta">
+    <Key>
+      <PropertyRef Name="idVenta" />
+    </Key>
+    <Property Name="idVenta" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="idUsuario" Type="Int32" Nullable="false" />
+    <Property Name="fechaVenta" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="estadoVenta" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="tb_usuario" Relationship="COMPUVENTASModel.fk_tb_producto_tb_usuario" FromRole="tb_venta" ToRole="tb_usuario" />
+    <NavigationProperty Name="tb_ventaxproducto" Relationship="COMPUVENTASModel.fk_tb_ventaxproducto_tb_venta" FromRole="tb_venta" ToRole="tb_ventaxproducto" />
+  </EntityType>
+  <EntityType Name="tb_ventaxproducto">
+    <Key>
+      <PropertyRef Name="idVenta" />
+      <PropertyRef Name="idProducto" />
+    </Key>
+    <Property Name="idVenta" Type="Int32" Nullable="false" />
+    <Property Name="idProducto" Type="Int32" Nullable="false" />
+    <Property Name="cantidad" Type="Int32" Nullable="false" />
+    <Property Name="precio" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+    <Property Name="subtotal" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+    <Property Name="estadoVentaxProd" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="tb_producto" Relationship="COMPUVENTASModel.fk_tb_ventaxproducto_tb_producto" FromRole="tb_ventaxproducto" ToRole="tb_producto" />
+    <NavigationProperty Name="tb_venta" Relationship="COMPUVENTASModel.fk_tb_ventaxproducto_tb_venta" FromRole="tb_ventaxproducto" ToRole="tb_venta" />
+  </EntityType>
+  <Association Name="fk_tb_producto_tb_categoria">
+    <End Role="tb_categoria" Type="COMPUVENTASModel.tb_categoria" Multiplicity="1" />
+    <End Role="tb_producto" Type="COMPUVENTASModel.tb_producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_categoria">
+        <PropertyRef Name="CategoriaId" />
+      </Principal>
+      <Dependent Role="tb_producto">
+        <PropertyRef Name="idCategoria" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_provee__Distr__1ED998B2">
+    <End Role="tb_distrito" Type="COMPUVENTASModel.tb_distrito" Multiplicity="0..1" />
+    <End Role="tb_proveedor" Type="COMPUVENTASModel.tb_proveedor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_distrito">
+        <PropertyRef Name="DistritoId" />
+      </Principal>
+      <Dependent Role="tb_proveedor">
+        <PropertyRef Name="DistritoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_usuari__idDis__1920BF5C">
+    <End Role="tb_distrito" Type="COMPUVENTASModel.tb_distrito" Multiplicity="0..1" />
+    <End Role="tb_usuario" Type="COMPUVENTASModel.tb_usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_distrito">
+        <PropertyRef Name="DistritoId" />
+      </Principal>
+      <Dependent Role="tb_usuario">
+        <PropertyRef Name="idDistrito" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tb_produc__Prove__22AA2996">
+    <End Role="tb_proveedor" Type="COMPUVENTASModel.tb_proveedor" Multiplicity="0..1" />
+    <End Role="tb_producto" Type="COMPUVENTASModel.tb_producto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_proveedor">
+        <PropertyRef Name="ProveedorId" />
+      </Principal>
+      <Dependent Role="tb_producto">
+        <PropertyRef Name="ProveedorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tb_ventaxproducto_tb_producto">
+    <End Role="tb_producto" Type="COMPUVENTASModel.tb_producto" Multiplicity="1" />
+    <End Role="tb_ventaxproducto" Type="COMPUVENTASModel.tb_ventaxproducto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_producto">
+        <PropertyRef Name="idProducto" />
+      </Principal>
+      <Dependent Role="tb_ventaxproducto">
+        <PropertyRef Name="idProducto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tb_usuario_tb_rol">
+    <End Role="tb_rol" Type="COMPUVENTASModel.tb_rol" Multiplicity="1" />
+    <End Role="tb_usuario" Type="COMPUVENTASModel.tb_usuario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_rol">
+        <PropertyRef Name="idRol" />
+      </Principal>
+      <Dependent Role="tb_usuario">
+        <PropertyRef Name="idRol" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tb_producto_tb_usuario">
+    <End Role="tb_usuario" Type="COMPUVENTASModel.tb_usuario" Multiplicity="1" />
+    <End Role="tb_venta" Type="COMPUVENTASModel.tb_venta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_usuario">
+        <PropertyRef Name="idUsuario" />
+      </Principal>
+      <Dependent Role="tb_venta">
+        <PropertyRef Name="idUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_tb_ventaxproducto_tb_venta">
+    <End Role="tb_venta" Type="COMPUVENTASModel.tb_venta" Multiplicity="1" />
+    <End Role="tb_ventaxproducto" Type="COMPUVENTASModel.tb_ventaxproducto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_venta">
+        <PropertyRef Name="idVenta" />
+      </Principal>
+      <Dependent Role="tb_ventaxproducto">
+        <PropertyRef Name="idVenta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

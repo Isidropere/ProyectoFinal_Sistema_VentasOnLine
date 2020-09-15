@@ -1,0 +1,1157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="COMPUVENTASModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="COMPUVENTASModelStoreContainer">
+          <EntitySet Name="DETALLEPAGO" EntityType="COMPUVENTASModel.Store.DETALLEPAGO" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="DocPaga" EntityType="COMPUVENTASModel.Store.DocPaga" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PAGO" EntityType="COMPUVENTASModel.Store.PAGO" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="pagoconsulta" EntityType="COMPUVENTASModel.Store.pagoconsulta" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="tb_categoria" EntityType="COMPUVENTASModel.Store.tb_categoria" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="tb_producto" EntityType="COMPUVENTASModel.Store.tb_producto" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="tb_rol" EntityType="COMPUVENTASModel.Store.tb_rol" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="tb_usuario" EntityType="COMPUVENTASModel.Store.tb_usuario" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="tb_venta" EntityType="COMPUVENTASModel.Store.tb_venta" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="tb_ventaxproducto" EntityType="COMPUVENTASModel.Store.tb_ventaxproducto" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK__PAGO__documentop__36B12243" Association="COMPUVENTASModel.Store.FK__PAGO__documentop__36B12243">
+            <End Role="DocPaga" EntitySet="DocPaga" />
+            <End Role="PAGO" EntitySet="PAGO" />
+          </AssociationSet>
+          <AssociationSet Name="FK__PAGO__idCliente__37A5467C" Association="COMPUVENTASModel.Store.FK__PAGO__idCliente__37A5467C">
+            <End Role="tb_usuario" EntitySet="tb_usuario" />
+            <End Role="PAGO" EntitySet="PAGO" />
+          </AssociationSet>
+          <AssociationSet Name="FK__PAGO__idUsuario__38996AB5" Association="COMPUVENTASModel.Store.FK__PAGO__idUsuario__38996AB5">
+            <End Role="tb_usuario" EntitySet="tb_usuario" />
+            <End Role="PAGO" EntitySet="PAGO" />
+          </AssociationSet>
+          <AssociationSet Name="fk_tb_producto_tb_categoria" Association="COMPUVENTASModel.Store.fk_tb_producto_tb_categoria">
+            <End Role="tb_categoria" EntitySet="tb_categoria" />
+            <End Role="tb_producto" EntitySet="tb_producto" />
+          </AssociationSet>
+          <AssociationSet Name="fk_tb_producto_tb_usuario" Association="COMPUVENTASModel.Store.fk_tb_producto_tb_usuario">
+            <End Role="tb_usuario" EntitySet="tb_usuario" />
+            <End Role="tb_venta" EntitySet="tb_venta" />
+          </AssociationSet>
+          <AssociationSet Name="fk_tb_usuario_tb_rol" Association="COMPUVENTASModel.Store.fk_tb_usuario_tb_rol">
+            <End Role="tb_rol" EntitySet="tb_rol" />
+            <End Role="tb_usuario" EntitySet="tb_usuario" />
+          </AssociationSet>
+          <AssociationSet Name="fk_tb_ventaxproducto_tb_produc" Association="COMPUVENTASModel.Store.fk_tb_ventaxproducto_tb_produc">
+            <End Role="tb_producto" EntitySet="tb_producto" />
+            <End Role="DETALLEPAGO" EntitySet="DETALLEPAGO" />
+          </AssociationSet>
+          <AssociationSet Name="fk_tb_ventaxproducto_tb_producto" Association="COMPUVENTASModel.Store.fk_tb_ventaxproducto_tb_producto">
+            <End Role="tb_producto" EntitySet="tb_producto" />
+            <End Role="tb_ventaxproducto" EntitySet="tb_ventaxproducto" />
+          </AssociationSet>
+          <AssociationSet Name="fk_tb_ventaxproducto_tb_ven" Association="COMPUVENTASModel.Store.fk_tb_ventaxproducto_tb_ven">
+            <End Role="PAGO" EntitySet="PAGO" />
+            <End Role="DETALLEPAGO" EntitySet="DETALLEPAGO" />
+          </AssociationSet>
+          <AssociationSet Name="fk_tb_ventaxproducto_tb_venta" Association="COMPUVENTASModel.Store.fk_tb_ventaxproducto_tb_venta">
+            <End Role="tb_venta" EntitySet="tb_venta" />
+            <End Role="tb_ventaxproducto" EntitySet="tb_ventaxproducto" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="DETALLEPAGO">
+          <Key>
+            <PropertyRef Name="in_id_pago" />
+            <PropertyRef Name="idProducto" />
+          </Key>
+          <Property Name="in_id_pago" Type="int" Nullable="false" />
+          <Property Name="idProducto" Type="int" Nullable="false" />
+          <Property Name="cantidad" Type="int" Nullable="false" />
+          <Property Name="precio" Type="decimal" Nullable="false" Precision="6" Scale="2" />
+          <Property Name="subtotal" Type="decimal" Nullable="false" Precision="6" Scale="2" />
+          <Property Name="estadoVentaxProd" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="DocPaga">
+          <Key>
+            <PropertyRef Name="documentopaga" />
+          </Key>
+          <Property Name="documentopaga" Type="int" Nullable="false" />
+          <Property Name="descri" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="PAGO">
+          <Key>
+            <PropertyRef Name="in_id_pago" />
+          </Key>
+          <Property Name="in_id_pago" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="idUsuario" Type="int" />
+          <Property Name="idCliente" Type="int" />
+          <Property Name="in_id_tipopaVisa" Type="bit" Nullable="false" />
+          <Property Name="in_id_tipopaMastercard" Type="bit" Nullable="false" />
+          <Property Name="documentopaga" Type="int" />
+          <Property Name="vc_dsc_numerotar" Type="varchar" MaxLength="50" />
+          <Property Name="dt_fechaEmision" Type="date" />
+          <Property Name="cvc" Type="char" MaxLength="4" />
+          <Property Name="in_id_estado" Type="int" />
+          <Property Name="fechaven" Type="date" />
+          <Property Name="total" Type="decimal" Precision="20" Scale="1" />
+        </EntityType>
+        <EntityType Name="pagoconsulta">
+          <Key>
+            <PropertyRef Name="in_id_pago" />
+          </Key>
+          <Property Name="in_id_pago" Type="int" Nullable="false" />
+          <Property Name="cliente" Type="varchar" MaxLength="300" />
+          <Property Name="tipo" Type="varchar" MaxLength="300" />
+          <Property Name="documento" Type="varchar" MaxLength="300" />
+          <Property Name="fecha" Type="datetime" />
+          <Property Name="total" Type="decimal" Precision="20" Scale="2" />
+        </EntityType>
+        <EntityType Name="tb_categoria">
+          <Key>
+            <PropertyRef Name="CategoriaId" />
+          </Key>
+          <Property Name="CategoriaId" Type="int" Nullable="false" />
+          <Property Name="descCategoria" Type="varchar" Nullable="false" MaxLength="60" />
+        </EntityType>
+        <EntityType Name="tb_producto">
+          <Key>
+            <PropertyRef Name="idProducto" />
+          </Key>
+          <Property Name="idProducto" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="nomProducto" Type="varchar" Nullable="false" MaxLength="60" />
+          <Property Name="descProducto" Type="text" />
+          <Property Name="precioProducto" Type="decimal" Nullable="false" Precision="16" Scale="3" />
+          <Property Name="stockProducto" Type="int" Nullable="false" />
+          <Property Name="idCategoria" Type="int" Nullable="false" />
+          <Property Name="estadoProducto" Type="bit" Nullable="false" />
+          <Property Name="imagen" Type="varbinary" MaxLength="1" />
+          <Property Name="ruta_img" Type="varchar" MaxLength="300" />
+        </EntityType>
+        <EntityType Name="tb_rol">
+          <Key>
+            <PropertyRef Name="idRol" />
+          </Key>
+          <Property Name="idRol" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="descRol" Type="varchar" Nullable="false" MaxLength="60" />
+          <Property Name="estadoRol" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tb_usuario">
+          <Key>
+            <PropertyRef Name="idUsuario" />
+          </Key>
+          <Property Name="idUsuario" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="correoUsuario" Type="varchar" Nullable="false" MaxLength="100" />
+          <Property Name="claveUsuario" Type="varchar" Nullable="false" MaxLength="20" />
+          <Property Name="nombresUsuario" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="apePatUsuario" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="apeMatUsuario" Type="varchar" Nullable="false" MaxLength="50" />
+          <Property Name="dniUsuario" Type="varchar" Nullable="false" MaxLength="8" />
+          <Property Name="fecNacimientoUsuario" Type="date" Nullable="false" />
+          <Property Name="telefonoUsuario" Type="varchar" MaxLength="9" />
+          <Property Name="celularUsuario" Type="varchar" MaxLength="11" />
+          <Property Name="idRol" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tb_venta">
+          <Key>
+            <PropertyRef Name="idVenta" />
+          </Key>
+          <Property Name="idVenta" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="idUsuario" Type="int" Nullable="false" />
+          <Property Name="fechaVenta" Type="datetime" Nullable="false" />
+          <Property Name="estadoVenta" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="tb_ventaxproducto">
+          <Key>
+            <PropertyRef Name="idVenta" />
+            <PropertyRef Name="idProducto" />
+          </Key>
+          <Property Name="idVenta" Type="int" Nullable="false" />
+          <Property Name="idProducto" Type="int" Nullable="false" />
+          <Property Name="cantidad" Type="int" Nullable="false" />
+          <Property Name="precio" Type="decimal" Nullable="false" Precision="6" Scale="2" />
+          <Property Name="subtotal" Type="decimal" Nullable="false" Precision="6" Scale="2" />
+          <Property Name="estadoVentaxProd" Type="bit" Nullable="false" />
+        </EntityType>
+        <Association Name="FK__PAGO__documentop__36B12243">
+          <End Role="DocPaga" Type="COMPUVENTASModel.Store.DocPaga" Multiplicity="0..1" />
+          <End Role="PAGO" Type="COMPUVENTASModel.Store.PAGO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DocPaga">
+              <PropertyRef Name="documentopaga" />
+            </Principal>
+            <Dependent Role="PAGO">
+              <PropertyRef Name="documentopaga" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__PAGO__idCliente__37A5467C">
+          <End Role="tb_usuario" Type="COMPUVENTASModel.Store.tb_usuario" Multiplicity="0..1" />
+          <End Role="PAGO" Type="COMPUVENTASModel.Store.PAGO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tb_usuario">
+              <PropertyRef Name="idUsuario" />
+            </Principal>
+            <Dependent Role="PAGO">
+              <PropertyRef Name="idCliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__PAGO__idUsuario__38996AB5">
+          <End Role="tb_usuario" Type="COMPUVENTASModel.Store.tb_usuario" Multiplicity="0..1" />
+          <End Role="PAGO" Type="COMPUVENTASModel.Store.PAGO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tb_usuario">
+              <PropertyRef Name="idUsuario" />
+            </Principal>
+            <Dependent Role="PAGO">
+              <PropertyRef Name="idUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_tb_producto_tb_categoria">
+          <End Role="tb_categoria" Type="COMPUVENTASModel.Store.tb_categoria" Multiplicity="1" />
+          <End Role="tb_producto" Type="COMPUVENTASModel.Store.tb_producto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tb_categoria">
+              <PropertyRef Name="CategoriaId" />
+            </Principal>
+            <Dependent Role="tb_producto">
+              <PropertyRef Name="idCategoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_tb_producto_tb_usuario">
+          <End Role="tb_usuario" Type="COMPUVENTASModel.Store.tb_usuario" Multiplicity="1" />
+          <End Role="tb_venta" Type="COMPUVENTASModel.Store.tb_venta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tb_usuario">
+              <PropertyRef Name="idUsuario" />
+            </Principal>
+            <Dependent Role="tb_venta">
+              <PropertyRef Name="idUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_tb_usuario_tb_rol">
+          <End Role="tb_rol" Type="COMPUVENTASModel.Store.tb_rol" Multiplicity="1" />
+          <End Role="tb_usuario" Type="COMPUVENTASModel.Store.tb_usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tb_rol">
+              <PropertyRef Name="idRol" />
+            </Principal>
+            <Dependent Role="tb_usuario">
+              <PropertyRef Name="idRol" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_tb_ventaxproducto_tb_produc">
+          <End Role="tb_producto" Type="COMPUVENTASModel.Store.tb_producto" Multiplicity="1" />
+          <End Role="DETALLEPAGO" Type="COMPUVENTASModel.Store.DETALLEPAGO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tb_producto">
+              <PropertyRef Name="idProducto" />
+            </Principal>
+            <Dependent Role="DETALLEPAGO">
+              <PropertyRef Name="idProducto" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_tb_ventaxproducto_tb_producto">
+          <End Role="tb_producto" Type="COMPUVENTASModel.Store.tb_producto" Multiplicity="1" />
+          <End Role="tb_ventaxproducto" Type="COMPUVENTASModel.Store.tb_ventaxproducto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tb_producto">
+              <PropertyRef Name="idProducto" />
+            </Principal>
+            <Dependent Role="tb_ventaxproducto">
+              <PropertyRef Name="idProducto" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_tb_ventaxproducto_tb_ven">
+          <End Role="PAGO" Type="COMPUVENTASModel.Store.PAGO" Multiplicity="1" />
+          <End Role="DETALLEPAGO" Type="COMPUVENTASModel.Store.DETALLEPAGO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PAGO">
+              <PropertyRef Name="in_id_pago" />
+            </Principal>
+            <Dependent Role="DETALLEPAGO">
+              <PropertyRef Name="in_id_pago" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_tb_ventaxproducto_tb_venta">
+          <End Role="tb_venta" Type="COMPUVENTASModel.Store.tb_venta" Multiplicity="1" />
+          <End Role="tb_ventaxproducto" Type="COMPUVENTASModel.Store.tb_ventaxproducto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tb_venta">
+              <PropertyRef Name="idVenta" />
+            </Principal>
+            <Dependent Role="tb_ventaxproducto">
+              <PropertyRef Name="idVenta" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="PEDIDOXCLIENTEXTODOS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="prod" Type="varchar" Mode="In" />
+          <Parameter Name="fecha" Type="datetime" Mode="In" />
+          <Parameter Name="fecha2" Type="datetime" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="in_id_pago" Type="int" Nullable="false" />
+                <Property Name="cliente" Type="varchar" MaxLength="300" />
+                <Property Name="tipo" Type="varchar" MaxLength="300" />
+                <Property Name="documento" Type="varchar" MaxLength="300" />
+                <Property Name="Fecha" Type="varchar" MaxLength="19" />
+                <Property Name="Total" Type="varchar" MaxLength="19" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="PEDIDOXCOMPROBANTE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="prod" Type="varchar" Mode="In" />
+          <Parameter Name="fecha" Type="datetime" Mode="In" />
+          <Parameter Name="fecha2" Type="datetime" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="in_id_pago" Type="int" Nullable="false" />
+                <Property Name="cliente" Type="varchar" MaxLength="300" />
+                <Property Name="tipo" Type="varchar" MaxLength="300" />
+                <Property Name="documento" Type="varchar" MaxLength="300" />
+                <Property Name="Fecha" Type="varchar" MaxLength="19" />
+                <Property Name="Total" Type="varchar" MaxLength="19" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="PEDIDOXPRODUCTOXTODOS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="prod" Type="varchar" Mode="In" />
+          <Parameter Name="fecha" Type="datetime" Mode="In" />
+          <Parameter Name="fecha2" Type="datetime" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="in_id_pago" Type="int" Nullable="false" />
+                <Property Name="Cliente" Type="varchar" Nullable="false" MaxLength="152" />
+                <Property Name="descri" Type="varchar" MaxLength="100" />
+                <Property Name="dt_fechaEmision" Type="date" />
+                <Property Name="total" Type="decimal" Precision="20" Scale="1" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="PEDIDOXPRODUCTOXTODOS1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="prod" Type="varchar" Mode="In" />
+          <Parameter Name="fecha" Type="datetime" Mode="In" />
+          <Parameter Name="fecha2" Type="datetime" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="in_id_pago" Type="int" Nullable="false" />
+                <Property Name="Cliente" Type="varchar" Nullable="false" MaxLength="152" />
+                <Property Name="descri" Type="varchar" MaxLength="100" />
+                <Property Name="FECHA" Type="varchar" MaxLength="19" />
+                <Property Name="TOTAL" Type="varchar" MaxLength="19" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="ppago5" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+        <Function Name="registrarDetallePago" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="idVenta" Type="int" Mode="In" />
+          <Parameter Name="idProducto" Type="int" Mode="In" />
+          <Parameter Name="cantidad" Type="int" Mode="In" />
+          <Parameter Name="precio" Type="decimal" Mode="In" />
+        </Function>
+        <Function Name="registrarDetalleVenta" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="idVenta" Type="int" Mode="In" />
+          <Parameter Name="idProducto" Type="int" Mode="In" />
+          <Parameter Name="cantidad" Type="int" Mode="In" />
+          <Parameter Name="precio" Type="decimal" Mode="In" />
+        </Function>
+        <Function Name="registrarPago" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="idUsuario" Type="int" Mode="In" />
+          <Parameter Name="tipo" Type="bit" Mode="In" />
+          <Parameter Name="tipo2" Type="bit" Mode="In" />
+          <Parameter Name="tarjeta" Type="varchar" Mode="In" />
+          <Parameter Name="fechaven" Type="date" Mode="In" />
+          <Parameter Name="cvc" Type="char" Mode="In" />
+          <Parameter Name="doc" Type="int" Mode="In" />
+        </Function>
+        <Function Name="registrarUsuario" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="correoUsuario" Type="varchar" Mode="In" />
+          <Parameter Name="claveUsuario" Type="varchar" Mode="In" />
+          <Parameter Name="nombresUsuario" Type="varchar" Mode="In" />
+          <Parameter Name="apePatUsuario" Type="varchar" Mode="In" />
+          <Parameter Name="apeMatUsuario" Type="varchar" Mode="In" />
+          <Parameter Name="dniUsuario" Type="varchar" Mode="In" />
+          <Parameter Name="fecNacimientoUsuario" Type="date" Mode="In" />
+          <Parameter Name="telefonoUsuario" Type="varchar" Mode="In" />
+          <Parameter Name="celularUsuario" Type="varchar" Mode="In" />
+          <Parameter Name="idRol" Type="int" Mode="In" />
+        </Function>
+        <Function Name="registrarVenta" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="idUsuario" Type="int" Mode="In" />
+          <Parameter Name="estadoVenta" Type="bit" Mode="In" />
+        </Function>
+        <Function Name="REPORPEDIDODOCUMENTO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="prod" Type="varchar" Mode="In" />
+          <Parameter Name="fecha" Type="datetime" Mode="In" />
+          <Parameter Name="fecha2" Type="datetime" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="in_id_pago" Type="int" Nullable="false" />
+                <Property Name="cliente" Type="varchar" MaxLength="300" />
+                <Property Name="tipo" Type="varchar" MaxLength="300" />
+                <Property Name="documento" Type="varchar" MaxLength="300" />
+                <Property Name="Fecha" Type="varchar" MaxLength="19" />
+                <Property Name="Total" Type="varchar" MaxLength="19" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="REPORTPAGO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="cliente" Type="varchar" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="in_id_pago" Type="int" Nullable="false" />
+                <Property Name="cliente" Type="varchar" MaxLength="300" />
+                <Property Name="tipo" Type="varchar" MaxLength="300" />
+                <Property Name="documento" Type="varchar" MaxLength="300" />
+                <Property Name="nomProducto" Type="varchar" Nullable="false" MaxLength="60" />
+                <Property Name="cantidad" Type="int" Nullable="false" />
+                <Property Name="precio" Type="varchar" MaxLength="19" />
+                <Property Name="Fecha" Type="varchar" MaxLength="19" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="TOPCLIENTES" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="prod" Type="int" Mode="In" />
+          <Parameter Name="fecha" Type="datetime" Mode="In" />
+          <Parameter Name="fecha2" Type="datetime" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="in_id_pago" Type="int" Nullable="false" />
+                <Property Name="cliente" Type="varchar" MaxLength="300" />
+                <Property Name="tipo" Type="varchar" MaxLength="300" />
+                <Property Name="documento" Type="varchar" MaxLength="300" />
+                <Property Name="Fecha" Type="varchar" MaxLength="19" />
+                <Property Name="Total" Type="varchar" MaxLength="50" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+        <Function Name="TOPPRODUCTOS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+          <Parameter Name="prod" Type="int" Mode="In" />
+          <Parameter Name="fecha" Type="datetime" Mode="In" />
+          <Parameter Name="fecha2" Type="datetime" Mode="In" />
+          <ReturnType>
+            <CollectionType>
+              <RowType>
+                <Property Name="idProducto" Type="int" Nullable="false" />
+                <Property Name="nomProducto" Type="varchar" Nullable="false" MaxLength="60" />
+                <Property Name="Total" Type="varchar" MaxLength="60" />
+              </RowType>
+            </CollectionType>
+          </ReturnType>
+        </Function>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="COMPUVENTASModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="COMPUVENTASEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="DETALLEPAGO" EntityType="COMPUVENTASModel.DETALLEPAGO" />
+          <EntitySet Name="DocPaga" EntityType="COMPUVENTASModel.DocPaga" />
+          <EntitySet Name="PAGO" EntityType="COMPUVENTASModel.PAGO" />
+          <EntitySet Name="pagoconsulta" EntityType="COMPUVENTASModel.pagoconsulta" />
+          <EntitySet Name="tb_categoria" EntityType="COMPUVENTASModel.tb_categoria" />
+          <EntitySet Name="tb_producto" EntityType="COMPUVENTASModel.tb_producto" />
+          <EntitySet Name="tb_rol" EntityType="COMPUVENTASModel.tb_rol" />
+          <EntitySet Name="tb_usuario" EntityType="COMPUVENTASModel.tb_usuario" />
+          <EntitySet Name="tb_venta" EntityType="COMPUVENTASModel.tb_venta" />
+          <EntitySet Name="tb_ventaxproducto" EntityType="COMPUVENTASModel.tb_ventaxproducto" />
+          <AssociationSet Name="fk_tb_ventaxproducto_tb_produc" Association="COMPUVENTASModel.fk_tb_ventaxproducto_tb_produc">
+            <End Role="tb_producto" EntitySet="tb_producto" />
+            <End Role="DETALLEPAGO" EntitySet="DETALLEPAGO" />
+          </AssociationSet>
+          <AssociationSet Name="fk_tb_ventaxproducto_tb_ven" Association="COMPUVENTASModel.fk_tb_ventaxproducto_tb_ven">
+            <End Role="PAGO" EntitySet="PAGO" />
+            <End Role="DETALLEPAGO" EntitySet="DETALLEPAGO" />
+          </AssociationSet>
+          <AssociationSet Name="FK__PAGO__documentop__36B12243" Association="COMPUVENTASModel.FK__PAGO__documentop__36B12243">
+            <End Role="DocPaga" EntitySet="DocPaga" />
+            <End Role="PAGO" EntitySet="PAGO" />
+          </AssociationSet>
+          <AssociationSet Name="FK__PAGO__idCliente__37A5467C" Association="COMPUVENTASModel.FK__PAGO__idCliente__37A5467C">
+            <End Role="tb_usuario" EntitySet="tb_usuario" />
+            <End Role="PAGO" EntitySet="PAGO" />
+          </AssociationSet>
+          <AssociationSet Name="FK__PAGO__idUsuario__38996AB5" Association="COMPUVENTASModel.FK__PAGO__idUsuario__38996AB5">
+            <End Role="tb_usuario" EntitySet="tb_usuario" />
+            <End Role="PAGO" EntitySet="PAGO" />
+          </AssociationSet>
+          <AssociationSet Name="fk_tb_producto_tb_categoria" Association="COMPUVENTASModel.fk_tb_producto_tb_categoria">
+            <End Role="tb_categoria" EntitySet="tb_categoria" />
+            <End Role="tb_producto" EntitySet="tb_producto" />
+          </AssociationSet>
+          <AssociationSet Name="fk_tb_ventaxproducto_tb_producto" Association="COMPUVENTASModel.fk_tb_ventaxproducto_tb_producto">
+            <End Role="tb_producto" EntitySet="tb_producto" />
+            <End Role="tb_ventaxproducto" EntitySet="tb_ventaxproducto" />
+          </AssociationSet>
+          <AssociationSet Name="fk_tb_usuario_tb_rol" Association="COMPUVENTASModel.fk_tb_usuario_tb_rol">
+            <End Role="tb_rol" EntitySet="tb_rol" />
+            <End Role="tb_usuario" EntitySet="tb_usuario" />
+          </AssociationSet>
+          <AssociationSet Name="fk_tb_producto_tb_usuario" Association="COMPUVENTASModel.fk_tb_producto_tb_usuario">
+            <End Role="tb_usuario" EntitySet="tb_usuario" />
+            <End Role="tb_venta" EntitySet="tb_venta" />
+          </AssociationSet>
+          <AssociationSet Name="fk_tb_ventaxproducto_tb_venta" Association="COMPUVENTASModel.fk_tb_ventaxproducto_tb_venta">
+            <End Role="tb_venta" EntitySet="tb_venta" />
+            <End Role="tb_ventaxproducto" EntitySet="tb_ventaxproducto" />
+          </AssociationSet>
+          <FunctionImport Name="PEDIDOXCLIENTEXTODOS" ReturnType="Collection(COMPUVENTASModel.PEDIDOXCLIENTEXTODOS_Result)" IsComposable="true">
+            <Parameter Name="prod" Type="String" />
+            <Parameter Name="fecha" Type="DateTime" />
+            <Parameter Name="fecha2" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="PEDIDOXCOMPROBANTE" ReturnType="Collection(COMPUVENTASModel.PEDIDOXCOMPROBANTE_Result)" IsComposable="true">
+            <Parameter Name="prod" Type="String" />
+            <Parameter Name="fecha" Type="DateTime" />
+            <Parameter Name="fecha2" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="PEDIDOXPRODUCTOXTODOS" ReturnType="Collection(COMPUVENTASModel.PEDIDOXPRODUCTOXTODOS_Result)" IsComposable="true">
+            <Parameter Name="prod" Type="String" />
+            <Parameter Name="fecha" Type="DateTime" />
+            <Parameter Name="fecha2" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="PEDIDOXPRODUCTOXTODOS1" ReturnType="Collection(COMPUVENTASModel.PEDIDOXPRODUCTOXTODOS1_Result)" IsComposable="true">
+            <Parameter Name="prod" Type="String" />
+            <Parameter Name="fecha" Type="DateTime" />
+            <Parameter Name="fecha2" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="REPORPEDIDODOCUMENTO" ReturnType="Collection(COMPUVENTASModel.REPORPEDIDODOCUMENTO_Result)" IsComposable="true">
+            <Parameter Name="prod" Type="String" />
+            <Parameter Name="fecha" Type="DateTime" />
+            <Parameter Name="fecha2" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="REPORTPAGO" ReturnType="Collection(COMPUVENTASModel.REPORTPAGO_Result)" IsComposable="true">
+            <Parameter Name="cliente" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="TOPCLIENTES" ReturnType="Collection(COMPUVENTASModel.TOPCLIENTES_Result)" IsComposable="true">
+            <Parameter Name="prod" Type="Int32" />
+            <Parameter Name="fecha" Type="DateTime" />
+            <Parameter Name="fecha2" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="TOPPRODUCTOS" ReturnType="Collection(COMPUVENTASModel.TOPPRODUCTOS_Result)" IsComposable="true">
+            <Parameter Name="prod" Type="Int32" />
+            <Parameter Name="fecha" Type="DateTime" />
+            <Parameter Name="fecha2" Type="DateTime" />
+          </FunctionImport>
+          <FunctionImport Name="ppago5" />
+          <FunctionImport Name="registrarDetallePago">
+            <Parameter Name="idVenta" Mode="In" Type="Int32" />
+            <Parameter Name="idProducto" Mode="In" Type="Int32" />
+            <Parameter Name="cantidad" Mode="In" Type="Int32" />
+            <Parameter Name="precio" Mode="In" Type="Decimal" />
+          </FunctionImport>
+          <FunctionImport Name="registrarDetalleVenta">
+            <Parameter Name="idVenta" Mode="In" Type="Int32" />
+            <Parameter Name="idProducto" Mode="In" Type="Int32" />
+            <Parameter Name="cantidad" Mode="In" Type="Int32" />
+            <Parameter Name="precio" Mode="In" Type="Decimal" />
+          </FunctionImport>
+          <FunctionImport Name="registrarPago">
+            <Parameter Name="idUsuario" Mode="In" Type="Int32" />
+            <Parameter Name="tipo" Mode="In" Type="Boolean" />
+            <Parameter Name="tipo2" Mode="In" Type="Boolean" />
+            <Parameter Name="tarjeta" Mode="In" Type="String" />
+            <Parameter Name="fechaven" Mode="In" Type="DateTime" />
+            <Parameter Name="cvc" Mode="In" Type="String" />
+            <Parameter Name="doc" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="registrarUsuario">
+            <Parameter Name="correoUsuario" Mode="In" Type="String" />
+            <Parameter Name="claveUsuario" Mode="In" Type="String" />
+            <Parameter Name="nombresUsuario" Mode="In" Type="String" />
+            <Parameter Name="apePatUsuario" Mode="In" Type="String" />
+            <Parameter Name="apeMatUsuario" Mode="In" Type="String" />
+            <Parameter Name="dniUsuario" Mode="In" Type="String" />
+            <Parameter Name="fecNacimientoUsuario" Mode="In" Type="DateTime" />
+            <Parameter Name="telefonoUsuario" Mode="In" Type="String" />
+            <Parameter Name="celularUsuario" Mode="In" Type="String" />
+            <Parameter Name="idRol" Mode="In" Type="Int32" />
+          </FunctionImport>
+          <FunctionImport Name="registrarVenta">
+            <Parameter Name="idUsuario" Mode="In" Type="Int32" />
+            <Parameter Name="estadoVenta" Mode="In" Type="Boolean" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="PEDIDOXCLIENTEXTODOS_Result">
+          <Property Name="in_id_pago" Type="Int32" Nullable="false" />
+          <Property Name="cliente" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="tipo" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="documento" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="Fecha" Type="String" MaxLength="19" Unicode="false" FixedLength="false" />
+          <Property Name="Total" Type="String" MaxLength="19" Unicode="false" FixedLength="false" />
+        </ComplexType>
+        <ComplexType Name="PEDIDOXCOMPROBANTE_Result">
+          <Property Name="in_id_pago" Type="Int32" Nullable="false" />
+          <Property Name="cliente" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="tipo" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="documento" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="Fecha" Type="String" MaxLength="19" Unicode="false" FixedLength="false" />
+          <Property Name="Total" Type="String" MaxLength="19" Unicode="false" FixedLength="false" />
+        </ComplexType>
+        <ComplexType Name="PEDIDOXPRODUCTOXTODOS_Result">
+          <Property Name="in_id_pago" Type="Int32" Nullable="false" />
+          <Property Name="Cliente" Type="String" Nullable="false" MaxLength="152" Unicode="false" FixedLength="false" />
+          <Property Name="descri" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="dt_fechaEmision" Type="DateTime" />
+          <Property Name="total" Type="Decimal" Precision="20" Scale="1" />
+        </ComplexType>
+        <ComplexType Name="PEDIDOXPRODUCTOXTODOS1_Result">
+          <Property Name="in_id_pago" Type="Int32" Nullable="false" />
+          <Property Name="Cliente" Type="String" Nullable="false" MaxLength="152" Unicode="false" FixedLength="false" />
+          <Property Name="descri" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="FECHA" Type="String" MaxLength="19" Unicode="false" FixedLength="false" />
+          <Property Name="TOTAL" Type="String" MaxLength="19" Unicode="false" FixedLength="false" />
+        </ComplexType>
+        <ComplexType Name="REPORPEDIDODOCUMENTO_Result">
+          <Property Name="in_id_pago" Type="Int32" Nullable="false" />
+          <Property Name="cliente" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="tipo" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="documento" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="Fecha" Type="String" MaxLength="19" Unicode="false" FixedLength="false" />
+          <Property Name="Total" Type="String" MaxLength="19" Unicode="false" FixedLength="false" />
+        </ComplexType>
+        <ComplexType Name="REPORTPAGO_Result">
+          <Property Name="in_id_pago" Type="Int32" Nullable="false" />
+          <Property Name="cliente" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="tipo" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="documento" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="nomProducto" Type="String" Nullable="false" MaxLength="60" Unicode="false" FixedLength="false" />
+          <Property Name="cantidad" Type="Int32" Nullable="false" />
+          <Property Name="precio" Type="String" MaxLength="19" Unicode="false" FixedLength="false" />
+          <Property Name="Fecha" Type="String" MaxLength="19" Unicode="false" FixedLength="false" />
+        </ComplexType>
+        <ComplexType Name="TOPCLIENTES_Result">
+          <Property Name="in_id_pago" Type="Int32" Nullable="false" />
+          <Property Name="cliente" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="tipo" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="documento" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="Fecha" Type="String" MaxLength="19" Unicode="false" FixedLength="false" />
+          <Property Name="Total" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+        </ComplexType>
+        <ComplexType Name="TOPPRODUCTOS_Result">
+          <Property Name="idProducto" Type="Int32" Nullable="false" />
+          <Property Name="nomProducto" Type="String" Nullable="false" MaxLength="60" Unicode="false" FixedLength="false" />
+          <Property Name="Total" Type="String" MaxLength="60" Unicode="false" FixedLength="false" />
+        </ComplexType>
+        <EntityType Name="DETALLEPAGO">
+          <Key>
+            <PropertyRef Name="in_id_pago" />
+            <PropertyRef Name="idProducto" />
+          </Key>
+          <Property Name="in_id_pago" Type="Int32" Nullable="false" />
+          <Property Name="idProducto" Type="Int32" Nullable="false" />
+          <Property Name="cantidad" Type="Int32" Nullable="false" />
+          <Property Name="precio" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+          <Property Name="subtotal" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+          <Property Name="estadoVentaxProd" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="tb_producto" Relationship="COMPUVENTASModel.fk_tb_ventaxproducto_tb_produc" FromRole="DETALLEPAGO" ToRole="tb_producto" />
+          <NavigationProperty Name="PAGO" Relationship="COMPUVENTASModel.fk_tb_ventaxproducto_tb_ven" FromRole="DETALLEPAGO" ToRole="PAGO" />
+        </EntityType>
+        <EntityType Name="DocPaga">
+          <Key>
+            <PropertyRef Name="documentopaga" />
+          </Key>
+          <Property Name="documentopaga" Type="Int32" Nullable="false" />
+          <Property Name="descri" Type="String" MaxLength="100" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="PAGO" Relationship="COMPUVENTASModel.FK__PAGO__documentop__36B12243" FromRole="DocPaga" ToRole="PAGO" />
+        </EntityType>
+        <EntityType Name="PAGO">
+          <Key>
+            <PropertyRef Name="in_id_pago" />
+          </Key>
+          <Property Name="in_id_pago" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="idUsuario" Type="Int32" />
+          <Property Name="idCliente" Type="Int32" />
+          <Property Name="in_id_tipopaVisa" Type="Boolean" Nullable="false" />
+          <Property Name="in_id_tipopaMastercard" Type="Boolean" Nullable="false" />
+          <Property Name="documentopaga" Type="Int32" />
+          <Property Name="vc_dsc_numerotar" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="dt_fechaEmision" Type="DateTime" Precision="0" />
+          <Property Name="cvc" Type="String" MaxLength="4" Unicode="false" FixedLength="true" />
+          <Property Name="in_id_estado" Type="Int32" />
+          <Property Name="fechaven" Type="DateTime" Precision="0" />
+          <Property Name="total" Type="Decimal" Precision="20" Scale="1" />
+          <NavigationProperty Name="DETALLEPAGO" Relationship="COMPUVENTASModel.fk_tb_ventaxproducto_tb_ven" FromRole="PAGO" ToRole="DETALLEPAGO" />
+          <NavigationProperty Name="DocPaga" Relationship="COMPUVENTASModel.FK__PAGO__documentop__36B12243" FromRole="PAGO" ToRole="DocPaga" />
+          <NavigationProperty Name="tb_usuario" Relationship="COMPUVENTASModel.FK__PAGO__idCliente__37A5467C" FromRole="PAGO" ToRole="tb_usuario" />
+          <NavigationProperty Name="tb_usuario1" Relationship="COMPUVENTASModel.FK__PAGO__idUsuario__38996AB5" FromRole="PAGO" ToRole="tb_usuario" />
+        </EntityType>
+        <EntityType Name="pagoconsulta">
+          <Key>
+            <PropertyRef Name="in_id_pago" />
+          </Key>
+          <Property Name="in_id_pago" Type="Int32" Nullable="false" />
+          <Property Name="cliente" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="tipo" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="documento" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <Property Name="fecha" Type="DateTime" Precision="3" />
+          <Property Name="total" Type="Decimal" Precision="20" Scale="2" />
+        </EntityType>
+        <EntityType Name="tb_categoria">
+          <Key>
+            <PropertyRef Name="CategoriaId" />
+          </Key>
+          <Property Name="CategoriaId" Type="Int32" Nullable="false" />
+          <Property Name="descCategoria" Type="String" Nullable="false" MaxLength="60" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="tb_producto" Relationship="COMPUVENTASModel.fk_tb_producto_tb_categoria" FromRole="tb_categoria" ToRole="tb_producto" />
+        </EntityType>
+        <EntityType Name="tb_producto">
+          <Key>
+            <PropertyRef Name="idProducto" />
+          </Key>
+          <Property Name="idProducto" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="nomProducto" Type="String" Nullable="false" MaxLength="60" Unicode="false" FixedLength="false" />
+          <Property Name="descProducto" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="precioProducto" Type="Decimal" Nullable="false" Precision="16" Scale="3" />
+          <Property Name="stockProducto" Type="Int32" Nullable="false" />
+          <Property Name="idCategoria" Type="Int32" Nullable="false" />
+          <Property Name="estadoProducto" Type="Boolean" Nullable="false" />
+          <Property Name="imagen" Type="Binary" MaxLength="1" FixedLength="false" />
+          <Property Name="ruta_img" Type="String" MaxLength="300" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="DETALLEPAGO" Relationship="COMPUVENTASModel.fk_tb_ventaxproducto_tb_produc" FromRole="tb_producto" ToRole="DETALLEPAGO" />
+          <NavigationProperty Name="tb_categoria" Relationship="COMPUVENTASModel.fk_tb_producto_tb_categoria" FromRole="tb_producto" ToRole="tb_categoria" />
+          <NavigationProperty Name="tb_ventaxproducto" Relationship="COMPUVENTASModel.fk_tb_ventaxproducto_tb_producto" FromRole="tb_producto" ToRole="tb_ventaxproducto" />
+        </EntityType>
+        <EntityType Name="tb_rol">
+          <Key>
+            <PropertyRef Name="idRol" />
+          </Key>
+          <Property Name="idRol" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="descRol" Type="String" Nullable="false" MaxLength="60" Unicode="false" FixedLength="false" />
+          <Property Name="estadoRol" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="tb_usuario" Relationship="COMPUVENTASModel.fk_tb_usuario_tb_rol" FromRole="tb_rol" ToRole="tb_usuario" />
+        </EntityType>
+        <EntityType Name="tb_usuario">
+          <Key>
+            <PropertyRef Name="idUsuario" />
+          </Key>
+          <Property Name="idUsuario" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="correoUsuario" Type="String" Nullable="false" MaxLength="100" Unicode="false" FixedLength="false" />
+          <Property Name="claveUsuario" Type="String" Nullable="false" MaxLength="20" Unicode="false" FixedLength="false" />
+          <Property Name="nombresUsuario" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="apePatUsuario" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="apeMatUsuario" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="dniUsuario" Type="String" Nullable="false" MaxLength="8" Unicode="false" FixedLength="false" />
+          <Property Name="fecNacimientoUsuario" Type="DateTime" Nullable="false" Precision="0" />
+          <Property Name="telefonoUsuario" Type="String" MaxLength="9" Unicode="false" FixedLength="false" />
+          <Property Name="celularUsuario" Type="String" MaxLength="11" Unicode="false" FixedLength="false" />
+          <Property Name="idRol" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="PAGO" Relationship="COMPUVENTASModel.FK__PAGO__idCliente__37A5467C" FromRole="tb_usuario" ToRole="PAGO" />
+          <NavigationProperty Name="PAGO1" Relationship="COMPUVENTASModel.FK__PAGO__idUsuario__38996AB5" FromRole="tb_usuario" ToRole="PAGO" />
+          <NavigationProperty Name="tb_rol" Relationship="COMPUVENTASModel.fk_tb_usuario_tb_rol" FromRole="tb_usuario" ToRole="tb_rol" />
+          <NavigationProperty Name="tb_venta" Relationship="COMPUVENTASModel.fk_tb_producto_tb_usuario" FromRole="tb_usuario" ToRole="tb_venta" />
+        </EntityType>
+        <EntityType Name="tb_venta">
+          <Key>
+            <PropertyRef Name="idVenta" />
+          </Key>
+          <Property Name="idVenta" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="idUsuario" Type="Int32" Nullable="false" />
+          <Property Name="fechaVenta" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="estadoVenta" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="tb_usuario" Relationship="COMPUVENTASModel.fk_tb_producto_tb_usuario" FromRole="tb_venta" ToRole="tb_usuario" />
+          <NavigationProperty Name="tb_ventaxproducto" Relationship="COMPUVENTASModel.fk_tb_ventaxproducto_tb_venta" FromRole="tb_venta" ToRole="tb_ventaxproducto" />
+        </EntityType>
+        <EntityType Name="tb_ventaxproducto">
+          <Key>
+            <PropertyRef Name="idVenta" />
+            <PropertyRef Name="idProducto" />
+          </Key>
+          <Property Name="idVenta" Type="Int32" Nullable="false" />
+          <Property Name="idProducto" Type="Int32" Nullable="false" />
+          <Property Name="cantidad" Type="Int32" Nullable="false" />
+          <Property Name="precio" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+          <Property Name="subtotal" Type="Decimal" Nullable="false" Precision="6" Scale="2" />
+          <Property Name="estadoVentaxProd" Type="Boolean" Nullable="false" />
+          <NavigationProperty Name="tb_producto" Relationship="COMPUVENTASModel.fk_tb_ventaxproducto_tb_producto" FromRole="tb_ventaxproducto" ToRole="tb_producto" />
+          <NavigationProperty Name="tb_venta" Relationship="COMPUVENTASModel.fk_tb_ventaxproducto_tb_venta" FromRole="tb_ventaxproducto" ToRole="tb_venta" />
+        </EntityType>
+        <Association Name="fk_tb_ventaxproducto_tb_produc">
+          <End Role="tb_producto" Type="COMPUVENTASModel.tb_producto" Multiplicity="1" />
+          <End Role="DETALLEPAGO" Type="COMPUVENTASModel.DETALLEPAGO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tb_producto">
+              <PropertyRef Name="idProducto" />
+            </Principal>
+            <Dependent Role="DETALLEPAGO">
+              <PropertyRef Name="idProducto" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_tb_ventaxproducto_tb_ven">
+          <End Role="PAGO" Type="COMPUVENTASModel.PAGO" Multiplicity="1" />
+          <End Role="DETALLEPAGO" Type="COMPUVENTASModel.DETALLEPAGO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PAGO">
+              <PropertyRef Name="in_id_pago" />
+            </Principal>
+            <Dependent Role="DETALLEPAGO">
+              <PropertyRef Name="in_id_pago" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__PAGO__documentop__36B12243">
+          <End Role="DocPaga" Type="COMPUVENTASModel.DocPaga" Multiplicity="0..1" />
+          <End Role="PAGO" Type="COMPUVENTASModel.PAGO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DocPaga">
+              <PropertyRef Name="documentopaga" />
+            </Principal>
+            <Dependent Role="PAGO">
+              <PropertyRef Name="documentopaga" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__PAGO__idCliente__37A5467C">
+          <End Role="tb_usuario" Type="COMPUVENTASModel.tb_usuario" Multiplicity="0..1" />
+          <End Role="PAGO" Type="COMPUVENTASModel.PAGO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tb_usuario">
+              <PropertyRef Name="idUsuario" />
+            </Principal>
+            <Dependent Role="PAGO">
+              <PropertyRef Name="idCliente" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__PAGO__idUsuario__38996AB5">
+          <End Role="tb_usuario" Type="COMPUVENTASModel.tb_usuario" Multiplicity="0..1" />
+          <End Role="PAGO" Type="COMPUVENTASModel.PAGO" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tb_usuario">
+              <PropertyRef Name="idUsuario" />
+            </Principal>
+            <Dependent Role="PAGO">
+              <PropertyRef Name="idUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_tb_producto_tb_categoria">
+          <End Role="tb_categoria" Type="COMPUVENTASModel.tb_categoria" Multiplicity="1" />
+          <End Role="tb_producto" Type="COMPUVENTASModel.tb_producto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tb_categoria">
+              <PropertyRef Name="CategoriaId" />
+            </Principal>
+            <Dependent Role="tb_producto">
+              <PropertyRef Name="idCategoria" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_tb_ventaxproducto_tb_producto">
+          <End Role="tb_producto" Type="COMPUVENTASModel.tb_producto" Multiplicity="1" />
+          <End Role="tb_ventaxproducto" Type="COMPUVENTASModel.tb_ventaxproducto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tb_producto">
+              <PropertyRef Name="idProducto" />
+            </Principal>
+            <Dependent Role="tb_ventaxproducto">
+              <PropertyRef Name="idProducto" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_tb_usuario_tb_rol">
+          <End Role="tb_rol" Type="COMPUVENTASModel.tb_rol" Multiplicity="1" />
+          <End Role="tb_usuario" Type="COMPUVENTASModel.tb_usuario" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tb_rol">
+              <PropertyRef Name="idRol" />
+            </Principal>
+            <Dependent Role="tb_usuario">
+              <PropertyRef Name="idRol" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_tb_producto_tb_usuario">
+          <End Role="tb_usuario" Type="COMPUVENTASModel.tb_usuario" Multiplicity="1" />
+          <End Role="tb_venta" Type="COMPUVENTASModel.tb_venta" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tb_usuario">
+              <PropertyRef Name="idUsuario" />
+            </Principal>
+            <Dependent Role="tb_venta">
+              <PropertyRef Name="idUsuario" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_tb_ventaxproducto_tb_venta">
+          <End Role="tb_venta" Type="COMPUVENTASModel.tb_venta" Multiplicity="1" />
+          <End Role="tb_ventaxproducto" Type="COMPUVENTASModel.tb_ventaxproducto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="tb_venta">
+              <PropertyRef Name="idVenta" />
+            </Principal>
+            <Dependent Role="tb_ventaxproducto">
+              <PropertyRef Name="idVenta" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="COMPUVENTASModelStoreContainer" CdmEntityContainer="COMPUVENTASEntities">
+          <EntitySetMapping Name="DETALLEPAGO">
+            <EntityTypeMapping TypeName="COMPUVENTASModel.DETALLEPAGO">
+              <MappingFragment StoreEntitySet="DETALLEPAGO">
+                <ScalarProperty Name="in_id_pago" ColumnName="in_id_pago" />
+                <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+                <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+                <ScalarProperty Name="precio" ColumnName="precio" />
+                <ScalarProperty Name="subtotal" ColumnName="subtotal" />
+                <ScalarProperty Name="estadoVentaxProd" ColumnName="estadoVentaxProd" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DocPaga">
+            <EntityTypeMapping TypeName="COMPUVENTASModel.DocPaga">
+              <MappingFragment StoreEntitySet="DocPaga">
+                <ScalarProperty Name="documentopaga" ColumnName="documentopaga" />
+                <ScalarProperty Name="descri" ColumnName="descri" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PAGO">
+            <EntityTypeMapping TypeName="COMPUVENTASModel.PAGO">
+              <MappingFragment StoreEntitySet="PAGO">
+                <ScalarProperty Name="in_id_pago" ColumnName="in_id_pago" />
+                <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+                <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+                <ScalarProperty Name="in_id_tipopaVisa" ColumnName="in_id_tipopaVisa" />
+                <ScalarProperty Name="in_id_tipopaMastercard" ColumnName="in_id_tipopaMastercard" />
+                <ScalarProperty Name="documentopaga" ColumnName="documentopaga" />
+                <ScalarProperty Name="vc_dsc_numerotar" ColumnName="vc_dsc_numerotar" />
+                <ScalarProperty Name="dt_fechaEmision" ColumnName="dt_fechaEmision" />
+                <ScalarProperty Name="cvc" ColumnName="cvc" />
+                <ScalarProperty Name="in_id_estado" ColumnName="in_id_estado" />
+                <ScalarProperty Name="fechaven" ColumnName="fechaven" />
+                <ScalarProperty Name="total" ColumnName="total" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="pagoconsulta">
+            <EntityTypeMapping TypeName="COMPUVENTASModel.pagoconsulta">
+              <MappingFragment StoreEntitySet="pagoconsulta">
+                <ScalarProperty Name="in_id_pago" ColumnName="in_id_pago" />
+                <ScalarProperty Name="cliente" ColumnName="cliente" />
+                <ScalarProperty Name="tipo" ColumnName="tipo" />
+                <ScalarProperty Name="documento" ColumnName="documento" />
+                <ScalarProperty Name="fecha" ColumnName="fecha" />
+                <ScalarProperty Name="total" ColumnName="total" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_categoria">
+            <EntityTypeMapping TypeName="COMPUVENTASModel.tb_categoria">
+              <MappingFragment StoreEntitySet="tb_categoria">
+                <ScalarProperty Name="CategoriaId" ColumnName="CategoriaId" />
+                <ScalarProperty Name="descCategoria" ColumnName="descCategoria" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_producto">
+            <EntityTypeMapping TypeName="COMPUVENTASModel.tb_producto">
+              <MappingFragment StoreEntitySet="tb_producto">
+                <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+                <ScalarProperty Name="nomProducto" ColumnName="nomProducto" />
+                <ScalarProperty Name="descProducto" ColumnName="descProducto" />
+                <ScalarProperty Name="precioProducto" ColumnName="precioProducto" />
+                <ScalarProperty Name="stockProducto" ColumnName="stockProducto" />
+                <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+                <ScalarProperty Name="estadoProducto" ColumnName="estadoProducto" />
+                <ScalarProperty Name="imagen" ColumnName="imagen" />
+                <ScalarProperty Name="ruta_img" ColumnName="ruta_img" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_rol">
+            <EntityTypeMapping TypeName="COMPUVENTASModel.tb_rol">
+              <MappingFragment StoreEntitySet="tb_rol">
+                <ScalarProperty Name="idRol" ColumnName="idRol" />
+                <ScalarProperty Name="descRol" ColumnName="descRol" />
+                <ScalarProperty Name="estadoRol" ColumnName="estadoRol" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_usuario">
+            <EntityTypeMapping TypeName="COMPUVENTASModel.tb_usuario">
+              <MappingFragment StoreEntitySet="tb_usuario">
+                <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+                <ScalarProperty Name="correoUsuario" ColumnName="correoUsuario" />
+                <ScalarProperty Name="claveUsuario" ColumnName="claveUsuario" />
+                <ScalarProperty Name="nombresUsuario" ColumnName="nombresUsuario" />
+                <ScalarProperty Name="apePatUsuario" ColumnName="apePatUsuario" />
+                <ScalarProperty Name="apeMatUsuario" ColumnName="apeMatUsuario" />
+                <ScalarProperty Name="dniUsuario" ColumnName="dniUsuario" />
+                <ScalarProperty Name="fecNacimientoUsuario" ColumnName="fecNacimientoUsuario" />
+                <ScalarProperty Name="telefonoUsuario" ColumnName="telefonoUsuario" />
+                <ScalarProperty Name="celularUsuario" ColumnName="celularUsuario" />
+                <ScalarProperty Name="idRol" ColumnName="idRol" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_venta">
+            <EntityTypeMapping TypeName="COMPUVENTASModel.tb_venta">
+              <MappingFragment StoreEntitySet="tb_venta">
+                <ScalarProperty Name="idVenta" ColumnName="idVenta" />
+                <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+                <ScalarProperty Name="fechaVenta" ColumnName="fechaVenta" />
+                <ScalarProperty Name="estadoVenta" ColumnName="estadoVenta" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="tb_ventaxproducto">
+            <EntityTypeMapping TypeName="COMPUVENTASModel.tb_ventaxproducto">
+              <MappingFragment StoreEntitySet="tb_ventaxproducto">
+                <ScalarProperty Name="idVenta" ColumnName="idVenta" />
+                <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+                <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+                <ScalarProperty Name="precio" ColumnName="precio" />
+                <ScalarProperty Name="subtotal" ColumnName="subtotal" />
+                <ScalarProperty Name="estadoVentaxProd" ColumnName="estadoVentaxProd" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionName="COMPUVENTASModel.Store.PEDIDOXCLIENTEXTODOS" FunctionImportName="PEDIDOXCLIENTEXTODOS">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="COMPUVENTASModel.PEDIDOXCLIENTEXTODOS_Result">
+                <ScalarProperty Name="in_id_pago" ColumnName="in_id_pago" />
+                <ScalarProperty Name="cliente" ColumnName="cliente" />
+                <ScalarProperty Name="tipo" ColumnName="tipo" />
+                <ScalarProperty Name="documento" ColumnName="documento" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Total" ColumnName="Total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionName="COMPUVENTASModel.Store.PEDIDOXCOMPROBANTE" FunctionImportName="PEDIDOXCOMPROBANTE">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="COMPUVENTASModel.PEDIDOXCOMPROBANTE_Result">
+                <ScalarProperty Name="in_id_pago" ColumnName="in_id_pago" />
+                <ScalarProperty Name="cliente" ColumnName="cliente" />
+                <ScalarProperty Name="tipo" ColumnName="tipo" />
+                <ScalarProperty Name="documento" ColumnName="documento" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Total" ColumnName="Total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionName="COMPUVENTASModel.Store.PEDIDOXPRODUCTOXTODOS" FunctionImportName="PEDIDOXPRODUCTOXTODOS">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="COMPUVENTASModel.PEDIDOXPRODUCTOXTODOS_Result">
+                <ScalarProperty Name="in_id_pago" ColumnName="in_id_pago" />
+                <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+                <ScalarProperty Name="descri" ColumnName="descri" />
+                <ScalarProperty Name="dt_fechaEmision" ColumnName="dt_fechaEmision" />
+                <ScalarProperty Name="total" ColumnName="total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionName="COMPUVENTASModel.Store.PEDIDOXPRODUCTOXTODOS1" FunctionImportName="PEDIDOXPRODUCTOXTODOS1">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="COMPUVENTASModel.PEDIDOXPRODUCTOXTODOS1_Result">
+                <ScalarProperty Name="in_id_pago" ColumnName="in_id_pago" />
+                <ScalarProperty Name="Cliente" ColumnName="Cliente" />
+                <ScalarProperty Name="descri" ColumnName="descri" />
+                <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+                <ScalarProperty Name="TOTAL" ColumnName="TOTAL" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionName="COMPUVENTASModel.Store.REPORPEDIDODOCUMENTO" FunctionImportName="REPORPEDIDODOCUMENTO">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="COMPUVENTASModel.REPORPEDIDODOCUMENTO_Result">
+                <ScalarProperty Name="in_id_pago" ColumnName="in_id_pago" />
+                <ScalarProperty Name="cliente" ColumnName="cliente" />
+                <ScalarProperty Name="tipo" ColumnName="tipo" />
+                <ScalarProperty Name="documento" ColumnName="documento" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Total" ColumnName="Total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionName="COMPUVENTASModel.Store.REPORTPAGO" FunctionImportName="REPORTPAGO">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="COMPUVENTASModel.REPORTPAGO_Result">
+                <ScalarProperty Name="in_id_pago" ColumnName="in_id_pago" />
+                <ScalarProperty Name="cliente" ColumnName="cliente" />
+                <ScalarProperty Name="tipo" ColumnName="tipo" />
+                <ScalarProperty Name="documento" ColumnName="documento" />
+                <ScalarProperty Name="nomProducto" ColumnName="nomProducto" />
+                <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+                <ScalarProperty Name="precio" ColumnName="precio" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionName="COMPUVENTASModel.Store.TOPCLIENTES" FunctionImportName="TOPCLIENTES">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="COMPUVENTASModel.TOPCLIENTES_Result">
+                <ScalarProperty Name="in_id_pago" ColumnName="in_id_pago" />
+                <ScalarProperty Name="cliente" ColumnName="cliente" />
+                <ScalarProperty Name="tipo" ColumnName="tipo" />
+                <ScalarProperty Name="documento" ColumnName="documento" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="Total" ColumnName="Total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionName="COMPUVENTASModel.Store.TOPPRODUCTOS" FunctionImportName="TOPPRODUCTOS">
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="COMPUVENTASModel.TOPPRODUCTOS_Result">
+                <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+                <ScalarProperty Name="nomProducto" ColumnName="nomProducto" />
+                <ScalarProperty Name="Total" ColumnName="Total" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="ppago5" FunctionName="COMPUVENTASModel.Store.ppago5" />
+          <FunctionImportMapping FunctionImportName="registrarDetallePago" FunctionName="COMPUVENTASModel.Store.registrarDetallePago" />
+          <FunctionImportMapping FunctionImportName="registrarDetalleVenta" FunctionName="COMPUVENTASModel.Store.registrarDetalleVenta" />
+          <FunctionImportMapping FunctionImportName="registrarPago" FunctionName="COMPUVENTASModel.Store.registrarPago" />
+          <FunctionImportMapping FunctionImportName="registrarUsuario" FunctionName="COMPUVENTASModel.Store.registrarUsuario" />
+          <FunctionImportMapping FunctionImportName="registrarVenta" FunctionName="COMPUVENTASModel.Store.registrarVenta" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

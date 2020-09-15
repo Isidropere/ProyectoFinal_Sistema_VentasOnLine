@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="10a794ef66f44f1ebb0de69d6e0e98c7" Name="Diagrama1">
+        <EntityTypeShape EntityType="COMPUVENTASModel.DETALLEPAGO" Width="1.5" PointX="7.5" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="COMPUVENTASModel.DocPaga" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="COMPUVENTASModel.PAGO" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="COMPUVENTASModel.pagoconsulta" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="COMPUVENTASModel.tb_categoria" Width="1.5" PointX="3" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="COMPUVENTASModel.tb_producto" Width="1.5" PointX="5.25" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="COMPUVENTASModel.tb_rol" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="COMPUVENTASModel.tb_usuario" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="COMPUVENTASModel.tb_venta" Width="1.5" PointX="5.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="COMPUVENTASModel.tb_ventaxproducto" Width="1.5" PointX="7.5" PointY="9.125" IsExpanded="true" />
+        <AssociationConnector Association="COMPUVENTASModel.fk_tb_ventaxproducto_tb_produc" ManuallyRouted="false" />
+        <AssociationConnector Association="COMPUVENTASModel.fk_tb_ventaxproducto_tb_ven" ManuallyRouted="false" />
+        <AssociationConnector Association="COMPUVENTASModel.FK__PAGO__documentop__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="COMPUVENTASModel.FK__PAGO__idCliente__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="COMPUVENTASModel.FK__PAGO__idUsuario__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="COMPUVENTASModel.fk_tb_producto_tb_categoria" ManuallyRouted="false" />
+        <AssociationConnector Association="COMPUVENTASModel.fk_tb_ventaxproducto_tb_producto" ManuallyRouted="false" />
+        <AssociationConnector Association="COMPUVENTASModel.fk_tb_usuario_tb_rol" ManuallyRouted="false" />
+        <AssociationConnector Association="COMPUVENTASModel.fk_tb_producto_tb_usuario" ManuallyRouted="false" />
+        <AssociationConnector Association="COMPUVENTASModel.fk_tb_ventaxproducto_tb_venta" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

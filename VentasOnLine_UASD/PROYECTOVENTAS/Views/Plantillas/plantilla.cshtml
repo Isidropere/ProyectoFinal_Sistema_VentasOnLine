@@ -1,0 +1,483 @@
+﻿@model PROYECTOVENTAS.Models.Modelo
+@using PROYECTOVENTAS.Models;
+@{
+
+    string mensaje = (string)Session["mensaje"];
+    Session["mensaje"] = null;
+    Usuario usuario = (Usuario)Session["usuario"];
+    List<Producto> carro = (List<Producto>)Session["carro"];
+
+}
+
+@Styles.Render("~/Content/css/bootstrap/bootstrap.css")
+@Styles.Render("~/Content/css/main.css")
+@Styles.Render("~/Content/css/jquery.rating.css")
+<link href="css/jquery.rating.css" rel="stylesheet" />
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<head>
+    <title>CiberVentas</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="ACCESSORIES CASES CD / DVD DRIVES CLEARANCE CONTROLLER CARDS CPUS (PROCESSORS) DRIVE ENCLOSURES FANS (COOLING) FLOPPY DRIVES GAMES & GIFT IDEAS HARD DRIVES KEYBOARDS / MICE MEMORY MONITORS MOTHERBOARDS NETWORKING / MODEM POWER SUPPLIES VIDEO ADAPTERS ecommerce, open source, shop, online shopping " />
+    <meta name="description" content="Zen Cart! :  - ACCESSORIES CASES CD / DVD DRIVES CLEARANCE CONTROLLER CARDS CPUS (PROCESSORS) DRIVE ENCLOSURES FANS (COOLING) FLOPPY DRIVES GAMES & GIFT IDEAS HARD DRIVES KEYBOARDS / MICE MEMORY MONITORS MOTHERBOARDS NETWORKING / MODEM POWER SUPPLIES VIDEO ADAPTERS ecommerce, open source, shop, online shopping" />
+    <meta http-equiv="imagetoolbar" content="no" />
+    <meta name="author" content="The Zen Cart&reg; Team and others" />
+    <meta name="generator" content="shopping cart program by Zen Cart&reg;, http://www.zen-cart.com eCommerce" />
+    <link rel="icon" href="includes\templates\theme815\favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="FAVICON" type="image/x-icon" />
+    <link href='http://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Lato:400' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css' />
+    <link rel="canonical" href="index.htm" />
+    <link rel="stylesheet" type="text/css" href="..\includes\templates\theme815\css\stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="..\includes\templates\theme815\css\stylesheet_boxes.css" />
+    <link rel="stylesheet" type="text/css" href="..\includes\templates\theme815\css\stylesheet_css_buttons.css" />
+    <link rel="stylesheet" type="text/css" href="..\includes\templates\theme815\css\stylesheet_ezpages_footer_columns.css" />
+    <link rel="stylesheet" type="text/css" href="..\includes\templates\theme815\css\stylesheet_header_menu.css" />
+    <link rel="stylesheet" type="text/css" href="..\includes\templates\theme815\css\stylesheet_lightbox-0.5.css" />
+    <link rel="stylesheet" type="text/css" href="..\includes\templates\theme815\css\stylesheet_main.css" />
+    <link rel="stylesheet" type="text/css" href="..\includes\templates\theme815\css\stylesheet_social_media_icons.css" />
+    <link rel="stylesheet" type="text/css" href="..\includes\templates\theme815\css\stylesheet_tm.css" />
+    <link rel="stylesheet" type="text/css" href="..\includes\templates\theme815\css\index_home.css" />
+
+    <script src="../Scripts/jquery-1.7.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="print" href="..\includes\templates\theme815\css\print_stylesheet.css" />
+    <script type="text/javascript" src="..\includes\templates\theme815\jscript\jscript_jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript" src="..\includes\templates\theme815\jscript\jscript_script.js"></script>
+    <script type="text/javascript" src="..\includes\templates\theme815\jscript\jscript_xdropdown_menu.js"></script>
+    <script type="text/javascript" src="..\includes\templates\theme815\jscript\jscript_xeasyTooltip.js"></script>
+    <script type="text/javascript" src="..\includes\templates\theme815\jscript\jscript_xjquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="..\includes\templates\theme815\jscript\jscript_xjquery.jqtransform.js"></script>
+    <script type="text/javascript" src="..\includes\templates\theme815\jscript\jscript_xjquery.lightbox-0.5.js"></script>
+
+    <!--[if IE]>
+    <script type="text/javascript" src="catalog/view/javascript/jquery/fancybox/jquery.fancybox-1.3.4-iefix.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]><div style='clear:both;height:59px;padding:0 15px 0 15px;position:relative;z-index:10000;text-align:center;'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div><![endif]-->
+
+</head>
+
+<body id="indexHomeBody">
+
+    <!-- ========== HEADER ========== -->
+
+    <div id="header">
+        <div class="extra">
+            <div class="main-width">
+                <div class="logo">
+                    <!-- ========== LOGO ========== -->
+                    <a href="@Url.Action("Index", "Home")"><img src="..\includes\templates\theme815\images\logo.png" alt="" /></a>
+                    <!-- ========================== -->
+                </div>
+                <div class="menu">
+                    <div id="navEZPagesTop">
+                        <ul>
+
+                            <li class="selected  first">
+                                <a href="@Url.Action("Index", "Home")">
+                                    <span class="corner"></span>
+                                    <span>
+                                        <span>Inicio</span>
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="  ">
+                                <a href="#">
+                                    <span class="corner"></span>
+                                    <span>
+                                        <span>Nuevos Productos</span>
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="  ">
+                                <a href="#">
+                                    <span class="corner"></span>
+                                    <span>
+                                        <span>Especiales</span>
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="  ">
+                                <a href="#">
+                                    <span class="corner"></span>
+                                    <span>
+                                        <span>Catálogo</span>
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="  ">
+                                <a href="#">
+                                    <span class="corner"></span>
+                                    <span>
+                                        <span>Opiniones</span>
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="  ">
+                                <a href="#">
+                                    <span class="corner"></span>
+                                    <span>
+                                        <span>Contáctenos</span>
+                                    </span>
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                    <!-- ========================== -->
+                </div>
+                <div class="navigation">
+                    <!-- ========== NAVIGATION LINKS ========== -->
+                    <ul class="nav pull-right">
+                        <li class="divider-vertical"></li>
+                        <form class="navbar-search" action="">
+                            @if (usuario != null)
+                            {
+                                <span style="color:white;">@usuario.nombresUsuario @usuario.apePatUsuario</span>
+                                <button id="btnMenuUsuario" class="btn btn-primary btn-small search_btn" type="button"><</button>
+                            }
+                            else
+                            {
+                                <button id="btnIngresar" class="btn btn-primary btn-small search_btn" type="button">Ingresar</button>
+                            }
+
+                        </form>
+
+                    </ul>
+
+                    <div id="divLogin" style="background-image: -webkit-linear-gradient(top, #ce4213, #dd4814);
+                        padding:10px;display:none;margin-left: 55px;width:223px;z-index: 1;position:absolute;margin-top:30px;">
+                        @using (Html.BeginForm("loginUsuario", "Usuario"))
+                        {
+                            <div class="form-group">
+                                <input type="email" class="form-control" name="correoUsuario" placeholder="Ingrese correo" />
+                            </div>
+                            <div class="form-group">
+                                <input type="password" class="form-control" name="claveUsuario" placeholder="Ingrese contraseña" />
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-small">Entrar</button>
+                            <span class="color-white">
+                                <button id="btnRegistrarme" type="button" class="btn btn-primary btn-small" style="float:right;"><a href="@Url.Action("RegistrarUsuario","Usuario")"> Registrarme </a></button>
+                            </span>
+                        }
+                    </div>
+
+                    <div id="divMenuUsuario" style="background-image: -webkit-linear-gradient(top, #ce4213, #dd4814);padding:0px
+                     !important;display:none;margin-left: 55px;width:150px;z-index: 1;position:absolute;margin-top:40px;">
+                        @using (Html.BeginForm("logouUsuario", "Usuario", FormMethod.Post, new { style = "margin:0px;" }))
+                        {
+                            <button type="submit" class="btn btn-primary btn-small" style="margin:0px;width:100%;">Cerrar Sesión</button>
+                        }
+                    </div>
+
+                    <!-- ====================================== -->
+                </div>
+                <div class="lang">
+                    <!-- ========== LANGUAGES ========== -->
+                    <a href="@Url.Action("index2", "Home")"><img src="includes\languages\english\images\admin.png" alt="English" title=" English " width="20" height="16" style="vertical-align:middle;" /></a>            <!-- =============================== -->
+                </div>
+                <div class="cart">
+                    <div style="float:right;">
+                        @if (usuario != null)
+                        {
+                            if (usuario.idRol == 1)
+                            {
+                                <h4>Carro de Compras (@carro.Count())</h4>
+                                <button class=" btn btn-primary"> <a href="@Url.Action("CarroCompras", "Productos")">Procesar Pago, @carro.Count()   producto(s) - RD$. @carro.Sum(Producto => Producto.precioProducto).ToString("0.00")</a></button>
+                     
+                            }
+                            else
+                            {
+                                <img width="220" height="0" />
+                            }
+
+                        }
+                        else
+                        {
+                            <img width="220" height="0" />
+                        }
+                    </div>
+
+                </div>
+
+                <div class="phone">
+                    809-560-6000
+                </div>
+                <div class="currencies">
+                    <!-- ========== CURRENCIES ========= -->
+                    <form name="currencies" action="#" method="get">
+                        <div>
+                            <span class="label">Currencies: &nbsp;</span>
+
+                            <select name="currency" class="select" onchange="this.form.submit();">
+                                <option value="USD" selected="selected">
+                                    US Dollar
+                                </option>
+                                <option value="EUR">
+                                    Euro
+                                </option>
+                                <option value="GBP">
+                                    GB Pound
+                                </option>
+                            </select>
+                            <input type="hidden" name="main_page" value="index" />
+                        </div>
+                    </form>
+                    <!-- ====================================== -->
+                </div>
+                <!-- <div class="categories"> -->
+                <!--bof-drop down menu display-->
+                <!--eof-drop down menu display-->
+                <!--    </div> -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- ========== CATEGORIES TABS ========= -->
+    <!-- ==================================== -->
+    <!-- ============================ -->
+    <div class="middle-content">
+        <div class="extra">
+            <div class="main-width">
+
+            </div>
+            <table border="0" cellspacing="0" cellpadding="0" width="100%" id="contentMainWrapper">
+                <tr>
+                    <td id="column-left" style="width:300px;">
+                        <div style="width:300px;">
+                            <!--// bof: categories //-->
+                            <div class="box" id="categories" style="width:300px;">
+
+
+
+
+                                @if ((usuario != null && usuario.idRol == 2))
+                                {
+                                    <a href="www.google.com"></a>
+                                }
+                                else
+                                {
+                                    <div class="box-head">
+                                        Productos
+                                    </div>
+                                    <div class="box-body">
+
+                                        <div id="categoriesContent" class="sideBoxContent">
+                                            <ul>
+                                                <li class="category-top_un">
+                                                    <span class="top-span">
+                                                        <a class="category-top_un" href="@Url.Action("Alimentos", "Productos")">Audífonos</a>
+                                                    </span>
+                                                </li>
+                                                <li class="category-top_un">
+                                                    <span class="top-span">
+                                                        <a class="category-top_un" href="@Url.Action("ArtCompu", "Productos")">Gamepads</a>
+                                                    </span>
+                                                </li>
+                                                <li class="category-top_un">
+                                                    <span class="top-span">
+                                                        <a class="category-top_un" href="@Url.Action("Juguetes", "Productos")">Memorias USB</a>
+                                                    </span>
+                                                </li>
+                                                <li class="category-top_un">
+                                                    <span class="top-span">
+                                                        <a class="category-top_un" href="@Url.Action("Monitores", "Productos")">Monitores</a>
+                                                    </span>
+                                                </li>
+                                                <li class="category-top_un">
+                                                    <span class="top-span">
+                                                        <a class="category-top_un" href="@Url.Action("Mouse", "Productos")">Mouse</a>
+                                                    </span>
+                                                </li>
+                                                <li class="category-top_un">
+                                                    <span class="top-span">
+                                                        <a class="category-top_un" href="@Url.Action("Parlantes", "Productos")">Parlantes</a>
+                                                    </span>
+                                                </li>
+                                                <li class="category-top_un">
+                                                    <span class="top-span">
+                                                        <a class="category-top_un" href="@Url.Action("Teclados", "Productos")">Teclados</a>
+                                                    </span>
+                                                </li>
+
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                }
+
+
+
+
+
+
+
+
+
+
+
+                            </div>
+                            <!--// eof: categories //-->
+                            <!--// bof: bannerbox //-->
+                            <div class="box" id="bannerbox" style="width:300px;">
+
+
+
+                                <div class="box-head">
+                                    Sponsors
+                                </div>
+
+                                <div class="box-body">
+                                    <div id="bannerboxContent" class="sideBoxContent centeredContent"><a href="#"><img src="..\images\pic5.jpg" alt="" width="300" height="252" /></a></div>
+                                </div>
+
+
+
+                            </div>
+                            <!--// eof: bannerbox //-->
+                        </div>
+                    </td>
+
+                    @RenderBody()
+                </tr>
+
+            </table>
+        </div>
+    </div>
+
+    <!-- ========== FOOTER ========== -->
+
+
+    <div id="footer">
+        <div class="extra">
+            <div class="main-width">
+                <div class="wrapper">
+                    <div class="footer-menu">
+                        <div id="navSupp">
+
+                        </div>
+                    </div>
+                    <div><!-- {%FOOTER_LINK} --></div>
+                    <!--<div class="cards">
+                    <img src="includes/templates/template_default/images/paypal.gif" alt="" />		</div>-->
+                    <div class="back_to_top">
+                        <a href="#"><span>&uarr;</span> TOP</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ============================ -->
+    <!--bof- parse time display -->
+    <!-- ========== IMAGE BORDER BOTTOM ========== -->
+    <!-- ========================================= -->
+
+
+    <script type="text/javascript">
+        /* CloudFlare analytics upgrade */
+    </script>
+
+
+
+
+    <div class="modal fade" id="modalRenzo" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="width: 450px;left:55%;">
+        <div class="modal-dialog">
+            <div class="modal-content" style="padding: 20px;padding-top:10px;padding-bottom:300px; ">
+                <div class="modal-header" style="padding-right: 0px;padding-bottom: 15px;">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title">Registrarme</h4>
+                </div>
+                <div class="modal-body">
+                    @using (Html.BeginForm("RegistrarUsuario", "Usuario", FormMethod.Post, new { onsubmit = "return validarContraseñas();" }))
+                    {
+                        <input type="text" placeholder="Documento" style="width:150px;" required="required" name="dniUsuario" /> <span> *</span>
+                        <input type="text" placeholder="Nombres" style="width:150px;" required="required" name="nombresUsuario" /> <span> *</span>
+                        <input type="text" placeholder="Apellido Paterno" style="width:100px;" required="required" name="apePatUsuario" /> <span> *</span>
+                        <input type="text" placeholder="Apellido Materno" style="width:100px;" required="required" name="apeMatUsuario" /> <span> *</span>
+                        <input type="text" placeholder="Dirección" style="width:350px;" required="required" /> <span> *</span>
+                        <input type="text" placeholder="Teléfono" style="width:100px;" required="required" name="telefonoUsuario" /> <span> *</span>
+                        <input type="text" placeholder="Celular" style="width:100px;" required="required" name="celularUsuario" /> <span> *</span>
+                        <input type="email" placeholder="Correo electrónico" style="width:250px;" required="required" name="correoUsuario" /> <span> *</span>
+                        <input type="password" id="txtContrasena" placeholder="Contraseña" style="width:150px;" required="required" name="claveUsuario" /> <span> *</span>
+                        <br />
+                        <input type="password" id="txtContrasena2" placeholder="Confirmar Contraseña" style="width:150px;" required="required" /> <span> *</span>
+                        <br />
+                        <span id="lblMensaje" style="color:red;"></span>
+                        <br />
+                        <input type="submit" class="btn btn-primary btn-small" value="Registrarme" style="float:right;" />
+
+                        <br />
+                        <br />
+                        <span>Campo requerido (*)</span>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalMensaje" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="width:-moz-fit-content;left:55%;">
+        <div class="modal-content" style="padding: 20px;padding-top:10px;padding-bottom:10px;">
+            <span id="textoMsj"></span>
+            <a style="float:right;cursor:pointer" data-dismiss="modal">Cerrar</a>
+        </div>
+    </div>
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--position:absolute;top:21%;left:67%;padding:10px;display:block;-->
+    <script>
+        $(document).ready(function () {
+            var msj = "@mensaje";
+            if (msj != null && msj != "") {
+                $("#textoMsj").html(msj);
+                $('#modalMensaje').modal({
+                    backdrop: false
+                });
+            }
+
+            validarContraseñas = function () {
+                if ($("#txtContrasena").val() != $("#txtContrasena2").val()) {
+                    $("#lblMensaje").html("Las contraseñas deben coincidir");
+                    return false;
+                } else {
+                    $("#lblMensaje").html("");
+                }
+            };
+
+            $("#btnIngresar").click(function () {
+                $("#divLogin").slideToggle();
+            });
+
+            $("#btnMenuUsuario").click(function () {
+                $("#divMenuUsuario").slideToggle();
+            });
+
+            $("#btnRegistrarme").click(function () {
+                $('#modalRenzo').modal('show');
+            });
+
+
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+﻿@model PROYECTOVENTAS.tb_producto
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>tb_producto</legend>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.idProducto)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.idProducto)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.nomProducto)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nomProducto)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.descProducto)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.descProducto)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.precioProducto)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.precioProducto)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.stockProducto)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.stockProducto)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.tb_categoria.descCategoria)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.tb_categoria.descCategoria)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.estadoProducto)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.estadoProducto)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.ruta_img)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ruta_img)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

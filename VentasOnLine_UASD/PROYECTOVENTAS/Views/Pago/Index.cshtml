@@ -1,0 +1,94 @@
+﻿@model IEnumerable<PROYECTOVENTAS.PAGO>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Plantillas/plantilla.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Ingresar Nuevo", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.in_id_pago)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tb_usuario1.correoUsuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tb_usuario.correoUsuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.in_id_tipopaVisa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.in_id_tipopaMastercard)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.banco)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.vc_dsc_numerotar)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dt_fechaEmision)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.cvc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.in_id_estado)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fechaven)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.in_id_pago)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tb_usuario1.correoUsuario)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tb_usuario.correoUsuario)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.in_id_tipopaVisa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.in_id_tipopaMastercard)
+        </td>
+        @*<td>
+            @Html.DisplayFor(modelItem => item.banco)
+        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.vc_dsc_numerotar)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dt_fechaEmision)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.cvc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.in_id_estado)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.fechaven)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Detalles", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Eliminar", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

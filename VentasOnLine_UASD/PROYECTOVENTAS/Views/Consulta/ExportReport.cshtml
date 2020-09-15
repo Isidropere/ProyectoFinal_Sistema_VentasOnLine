@@ -1,0 +1,18 @@
+﻿@model IEnumerable<PROYECTOVENTAS.pagoconsulta>
+
+@{
+    ViewBag.Title = "ExportReport";
+}
+
+<h2>ExportReport</h2>
+@using (@Html.BeginForm("ExportReport", "Consulta", FormMethod.Get))
+{
+    <fieldset>
+        <legend>Top de Clientes</legend>
+        @Html.Label("lblProducto", "Ingrese el número de clientes que desea mostrar:")
+        @Html.TextBox("id")
+
+        <input type="submit" value="Buscar" />
+    </fieldset>
+
+}

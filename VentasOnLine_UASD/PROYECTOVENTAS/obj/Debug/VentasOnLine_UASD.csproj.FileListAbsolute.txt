@@ -1,0 +1,113 @@
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll.config
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Net.Http.Formatting.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.WebHost.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\stdole.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Net.Http.Formatting.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.WebHost.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Http.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\VentasOnLine_UASD.csproj.CoreCompileInputs.cache
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\VentasOnLine_UASD.csproj.CopyComplete
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll.config
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\EntityFramework.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\System.Net.Http.Formatting.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\System.Web.Http.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\System.Web.Http.WebHost.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\System.Web.Providers.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\System.Web.Razor.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\WebGrease.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\stdole.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\EntityFramework.xml
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\System.Net.Http.Formatting.xml
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\System.Web.Http.xml
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\System.Web.Http.WebHost.xml
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\System.Web.Razor.xml
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\es\System.Web.Http.resources.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\obj\Debug\VentasOnLine_UASD.csprojAssemblyReference.cache
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\obj\Debug\VentasOnLine_UASD.csproj.CoreCompileInputs.cache
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\obj\Debug\VentasOnLine_UASD.csproj.CopyComplete
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+C:\Users\CHIP\Desktop\Diplomado WEB C#\ProyectoFinal Ventas OnLine\VentasOnLine_UASD\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb

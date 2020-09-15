@@ -1,0 +1,337 @@
+/* Responsive */
+@media screen and (max-width: 1200px){
+	body {
+		background-color: #1e477a;
+	}
+	/* Estilos de Index.php */
+	#nav,.contenedor {
+		width: 70%;
+	}
+	#nav li a {
+		padding: 1.2em 2.1em;
+	}
+	/* Estilos de Top.php */
+	.top_menu {
+		background-color: #1e477a;
+	}
+	.top_logo, .top_center, .user_top {
+		max-width: 28%;
+	}
+	/* Estilos de Main.php */
+	.divModulo {
+		width: 15%;
+	}
+}
+@media screen and (max-width:1024px) {
+	body {
+		background-color: #34526f;
+	}
+	/* Estilos de Index.php */
+	#nav,.contenedor {
+		width: 90%;
+	}
+	.loginUsuario input[type="text"], 
+	.loginUsuario input[type="password"]{
+		margin-left: 8px;
+	}
+	/* Estilos de Top.php */
+	.top_menu {
+		background-color: #34526f;
+	}
+	.top_logo, .top_center, .user_top {
+		max-width: 29%;
+	}
+	.top_center h1 {
+		font-size: 2em;
+		letter-spacing: .1em;
+	}
+	.top_center h2 {
+		font-size: 1em;
+		letter-spacing: .45em;
+	}
+	.user_top {
+		margin-left: 11%;
+	}
+	.img_top, .datos_top{
+		width: 47%;
+	}
+	.datos_top {
+		color: hsl(240,100%,98.6%);
+		font-size: .7em;
+		margin-left: -15%;
+		width: 60%;
+	}
+	.datos_top span {
+		font-size: .9em;
+	}
+	ul#submenu li {
+		width:32%;
+	}
+	/* Estilos de Main.php */
+	#content {
+		margin: 0 auto;
+		width: 100%;
+	}
+	.divModulo {
+		margin-left: 0;
+		width: 18%;
+	}
+	/* EStilos de usuarios.php */
+	.FormularioAccesoUsuario {
+		height: auto;
+	}
+	.FormularioAccesoUsuario label {
+		margin-top: .6em;
+	}
+	.FormularioBotonesUs input[type="submit"]{
+		width: 25%;
+	}
+	.FormularioAccesoUsuario label {
+		margin-top: 10%;
+	}
+	.botones_multi_select input[type="submit"]{
+		top: 304px;
+		left:10px;
+		position: absolute;
+	}
+}
+@media screen and (max-width: 768px) {
+	body {
+		background-color: #003580;
+	}
+	/* Estilos de Index.php */
+	#nav,.contenedor {
+		min-width: 98%;
+	}
+	.contenedor {
+		height: 260px;
+	}
+	#nav li {
+		width: 18.5%;
+	}
+	#nav li a {
+		padding: 1.2em 1.4em;
+	}
+	div.loginUsuario label, div.loginUsuario input[type=text]{
+		margin-right: 0;
+	}
+	div.loginUsuario input[type=password], #pass{
+		border-radius: .5em;
+		margin-right: -5px;
+	}
+	.loginUsuario input[type=text] {
+		margin-left: .2em;
+	}
+	div.loginUsuario, div.logo_Login {
+		height: 240px;
+	}
+	/* Estilos de Top.php */
+	.top_menu {
+		background-color: #003580;
+	}
+	/* EStilos de usuarios.php */
+	.FormularioBotonesUs input[type="submit"]{
+		width: 27%;
+	}
+}
+@media screen and (max-width: 600px) {
+	body {
+		background-color: #0060a3;
+	}
+	/* Estilos de Index.php */
+	#nav li a {
+		font-size: .8em;
+	}
+	.contenedor {
+		height: 220px;
+	}
+	.loginUsuario label {
+		margin-left: .3em;
+	}
+	.loginUsuario input[type=text], .loginUsuario input[type="password"]{
+		width: 53%;
+	}
+	.logo_Login, .loginUsuario {
+		width: 45%;
+	}
+	.logo_Login p{
+		font-size: 2em;
+		margin-top: 1.7em;
+	}
+	.divider {
+		left:48%;
+	}
+	/* Estilos de Top.php */
+	.top_menu {
+		background-color: #0060a3;
+		text-align: center;
+	}
+	.user_top {
+		display: block;
+		position: relative;
+		top: 0px;
+		text-align: center;
+		margin-left: 0;
+		max-width: 100%;
+		width: 100%;
+	}
+	.top_logo, .top_center{
+		display: inline-block;
+		margin-right: 15%;
+		vertical-align: middle;
+		width: 45%;
+	}
+	.img_top {
+		float: left;
+		vertical-align: middle;
+	}
+	.datos_top{
+		position: relative;
+		width: 45%;
+	}
+	#divMenu {
+		margin-top: 1.8em;
+	}
+	ul#submenu li {
+		width:48%;
+	}
+	ul#submenu li a {
+		padding:8px 13px 8px 13px;
+		font-family: 'OpenSans-Bold-webfont', Calibri, Arial;
+		font-size: 1.1em;
+	}
+	/* Estilos de Main.php */
+	.divModulo {
+		width: 20%;
+		margin-left: 1.1em;
+	}
+	/* EStilos de usuarios.php */
+	.FormularioAccesoUsuario section, .FormularioBotonesUs {
+		width: 100%;
+	}
+	.FormularioBotonesUs {
+		margin-top: 1em;
+		margin-left: -30%;
+	}
+}
+@media screen and (max-width: 480px) {
+	body {
+		background-color: #003366;
+	}
+	/* Estilos de Index.php */
+	#nav {
+		width: 100%;
+	}
+	#nav li {
+		border-radius: 0;
+		display: block;
+		height: 40px;
+		margin-top: 0px;
+		width: 100%;
+	}
+	.contenedor {
+		height: 400px;
+		margin-top: 12em;
+		width: 100%;
+	}
+	#nav li a {
+		font-size: 1.2em;
+		margin-top: 10em;
+		text-shadow: rgba(255, 255, 255, .4);
+		width: 100%;
+		top: 25%;
+		position: relative;
+	}
+	#nav li img {
+		display: none;
+		margin-right: 20px;
+	}
+	.divider {
+		display: none;
+	}
+	.loginUsuario, .logo_Login {
+		width: 100%;
+	}
+	.loginUsuario{
+		margin-top: -70px;
+	}
+	/* Estilos de Top.php */
+	.top_menu {
+		background-color: #003366;
+	}
+	.top_center {
+		margin-left: 25%;
+		text-align: center;
+		width: 100%;
+	}
+	.top_logo {
+		margin-left: 25%;
+	}
+	.datos_top {
+		font-size: .9em;
+		margin-top: 1em;
+		margin-left: 0;
+		width: 100%;
+	}
+	.top_logo, .top_center {
+		display: block;
+		width: 100%;
+	}
+	.datos_top h3 {
+		font-size: 1em;
+	}
+	.img_top {
+		display: none;
+	}
+
+	.datos_top p {
+		width: 100%;
+	}
+	.login {
+		position: relative;
+	}
+	/* Estilos de Main.php */
+	.divModulo {
+		width: 45%;
+		margin-left: .5em;
+	}
+	ul#submenu li {
+		text-align: center;
+		width:100%;
+	}
+	ul#submenu li:hover {
+		font-size: 1.3em;
+	}
+	ul#submenu li a {
+		padding:8px 13px 8px 13px;
+		font-family: 'OpenSans-Bold-webfont', Calibri, Arial;
+		font-size: 1.1em;
+	}
+	#footer {
+		font-size: .9em;
+		margin-left: -10%;
+	}
+	
+	.FormularioAccesoUsuario {
+		background: white;
+	}
+	.FormularioAccesoUsuario select, .FormularioAccesoUsuario label {
+		margin-top: 1em;
+		margin-left: .5em;
+	}
+
+}
+@media screen and (max-width: 320px) {
+	body {
+		background-color: #003366;
+	}
+	/* Estilos de Index.php */
+	h1 > img{
+		height: 100px;
+		width: 220px;
+	}
+	#divMenu{
+		height: 50px;
+	}
+
+}

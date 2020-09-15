@@ -1,0 +1,382 @@
+
+/* ----------------------- BOXES ------------------------- */
+
+.box {
+	margin-bottom:30px;
+}
+.box-head {	
+	background:#1d1d1d url(../images/menu_bg.jpg) 0 0 repeat-x; 
+	color:#fff; 
+	text-transform:uppercase; 
+	font: 400 33px/32px 'Righteous', sans-serif;
+	padding:18px 26px 20px;
+	letter-spacing: -1.3px;
+	margin-bottom:0px;
+	border-right: 1px solid #000;
+}
+.box-head a {
+	text-decoration:none;
+}
+.box-head a:hover {}
+.box-body {}
+.box-body ul {
+	margin:0; 
+	padding:0; 
+	list-style:none;
+}
+.box-body ul li {}
+.box-body ul li a {
+	font-size:;
+	line-height:;
+	color:;
+	text-decoration:none;
+	text-transform:none;
+}
+.box-body ul li.category-products a:hover,
+.box-body ul li .category-subs-parent-selected,
+.box-body ul li a:hover {
+	color:#fff;
+}
+
+.box-body ol {
+	margin:0; 
+	padding:0; 
+	list-style:none;
+}
+.box-body ol li {padding: 0 30px;}
+.box-body ol li a {
+	line-height: 24px;
+	color:#777;
+	text-decoration:none;
+	text-transform:none;
+}
+.box-body ol li a:hover {
+	color:#fff;
+}
+
+
+/* ----------------------- LISTING BOXES ------------------------- */
+
+
+#categories {margin-top: -70px; margin-bottom: 0;}
+#categories .box-body {
+	background: url(../images/cat_bg.png) 0 0 no-repeat;
+}
+#categories .box-body ul {padding: 3px 0 0;}
+#categories .box-body ul li{
+	display: block;
+	height: 48px;
+	line-height: 50px;
+	padding: 0 30px;
+	border-bottom: 1px solid #000;
+}
+#categories .box-body ul li+li {
+	border-top: 1px solid #2b2b2b;
+	border-bottom: 1px solid #000;
+}
+#categories .box-body ul li a{
+	font: 400 18px/30px 'Lato';
+	color: #777;
+	display: inline-block;
+	text-transform: uppercase;
+}
+#categories .box-body ul li a:hover {color: #fff;}
+
+#categories .box-body ul li.category-products,
+#categories .box-body ul li.category-subs {
+	border-top: none;
+	border-bottom: none;
+	height: 33px;
+	background: #1a1a1a;
+}
+#categories .box-body ul li.category-products a,
+#categories .box-body ul li a.category-subs {
+	font: 400 11px/33px 'Lato';
+	color: #777;
+	text-transform: uppercase;
+}
+#categories .box-body ul li.category-products a:hover,
+#categories .box-body ul li .category-subs-selected {
+	color:#c63636;
+}
+
+#categories .box-body ul li.category-products {
+	display: block;
+	position: relative;
+	padding-top: 8px;
+	padding-left: 44px!important;
+	border-top: 1px solid #2a2a2a;
+
+}
+#categories .box-body ul li .category-products {
+	position: relative;
+}
+#categories .box-body ul li .category-products:before {
+	content: "";
+	position: absolute;
+	left: -15px;
+	top: 12px;
+	height: 8px;
+	width: 5px;
+	display: inline-block;
+	background: url(../images/arr1.png) 0 0 no-repeat;
+}
+#categories .box-body ul li.category-products + li {
+	padding-top: 0px;
+	border-top: none;
+}
+#categories .box-body ul li.category-products + li.category-products + li.category-products + li.category-products + li.category-products {
+	padding-top: 0px;
+	border-top: none;
+	border-bottom: 1px solid #000;
+	padding-bottom: 25px!important;
+	margin-bottom: 1px;
+}
+#categories .box-body ul li .category-subs-parent-selected:after {
+	background: url(../images/arr.png) 0 0 no-repeat;
+	position: relative;
+	content: "";
+	right: -37px;
+	top: -1px;
+	width: 12px;
+	height: 8px;
+	display: inline-block;
+}
+#categories .box-body ul li.category-products:last-child {
+	position: relative;
+	overflow: hidden;
+	
+	margin-bottom: 22px;
+}
+
+
+#information .box-body,
+#whosonline .box-body, 
+#languages .box-body,
+#search .box-body,
+#bestsellers .box-body,
+#ezpages .box-body,
+#currencies .box-body, 
+#ezpages .box-body,
+#manufacturers .box-body,
+#moreinformation .box-body,
+#shoppingcart .box-body {margin-top: 30px;}
+
+#moreinformation ul {padding: 0 30px!important;}
+
+#bestsellers {}
+#bestsellers .wrapper {border-top: none;}
+
+#ezpages .box-body,
+#information .box-body{padding:0 30px;}
+
+
+#orderhistory {}
+#orderhistory .box-body img {
+	background:#FFFFFF; 
+	padding:2px; 
+	border:1px solid #AAAAAA; 
+	vertical-align:middle; 
+	margin:2px 0px 2px 0px;
+}
+#orderhistory .no-bg{
+	background:none; padding:0;
+}
+#orderhistory a{
+	display:inline; 
+	background:none; 
+	padding:0;
+}
+
+
+/* ----------------------- BANNER BOXES ------------------------- */
+
+#bannerbox {margin-bottom: 0;}
+#bannerbox .box-head{display: none;}
+
+#bannerbox2 {}
+
+#bannerboxall {}
+
+
+
+/* ----------------------- PRODUCT BOXES ------------------------- */
+
+#featured a img, 
+#whatsnew a img, 
+#specials a img, 
+#reviews a img, 
+#manufacturerinfo img, 
+#productnotifications img {
+	margin:0 0 8px;
+}
+
+#reviews img {
+	margin:5px 0 0;
+}
+
+
+
+#featured {}
+#featured .product-col{width: 80%!important; padding: 10%!important;}
+#featured .product-col .img{display: inline-block;float: none;}
+#featured .box-body{text-align: center;}
+#featured .product-col .button, 
+#featured .product-col .button1{float: none;}
+#featured .box-body .prod-info{}
+#featured .box-body .name{}
+#featured .box-body .name:hover{}
+#featured .box-body .normalprice {}
+#featured .box-body .productSpecialPrice, 
+#featured .box-body .productSalePrice, 
+#featured .box-body .productSpecialPriceSale {}
+
+
+#whatsnew {}
+#whatsnew {}
+#whatsnew .product-col{width: 80%!important; padding: 10%!important;}
+#whatsnew .product-col .img{display: inline-block;float: none;}
+#whatsnew .box-body{text-align: center;}
+#whatsnew .product-col .button, 
+#whatsnew .product-col .button1{float: none;}
+#whatsnew .box-body .prod-info{}
+#whatsnew .box-body .name{}
+#whatsnew .box-body .name:hover{}
+#whatsnew .box-body .normalprice {}
+#whatsnew .box-body .productSpecialPrice, 
+#whatsnew .box-body .productSalePrice, 
+#whatsnew .box-body .productSpecialPriceSale {}
+
+
+#specials {}
+#specials .product-col{width: 80%!important; padding: 10%!important;}
+#specials .product-col .img{display: inline-block;float: none;}
+#specials .box-body{text-align: center;}
+#specials .product-col .button, 
+#specials .product-col .button1{float: none;}
+#specials .box-body .prod-info{}
+#specials .box-body .name{}
+#specials .box-body .name:hover{}
+#specials .box-body .normalprice {}
+#specials .box-body .productSpecialPrice, 
+#specials .box-body .productSalePrice, 
+#specials .box-body .productSpecialPriceSale {}
+
+
+#reviews {}
+#reviews .box-body{
+	text-align:center;
+}
+
+#manufacturerinfo {}
+
+
+#productnotifications {}
+#productnotifications .box-body{
+	text-align:center;
+}
+
+
+
+
+/* ----------------------- FORM BOXES ------------------------- */
+
+#search {}
+#search .box-body{
+	overflow:hidden;
+	padding: 0 30px;
+}
+#search .advsearch{
+	color:#464646;
+	font-size:13px;
+	line-height:24px;
+	text-transform:lowercase;
+	float:left;
+	text-decoration: none;
+	display:inline-block;
+}
+#search .advsearch:hover{
+	color: #fff;
+}
+#search input{
+	border:solid 0px; 
+	padding:0; 
+	vertical-align:middle; 
+	float:left; 
+	display:block; 
+	text-indent:-1000px; 
+	cursor: pointer;
+}
+#search .input1{
+	border:solid 1px #2a2a2a;
+	margin-right:2px;
+	width:83%!important;
+	cursor:text;
+	padding: 2px 30px 2px 10px; 
+	float:left;
+	background:#2a2a2a;
+	text-indent:0;
+	color: #777;
+	height:23px!important;
+}
+#search .search_btn {
+	margin-right: -32px!important;
+	top: 5px!important;
+	right: 26px!important;
+}
+
+#manufacturers {}
+#manufacturers .box-body {
+	text-align:center;
+}
+
+
+#currencies {}
+#currencies .box-body {
+	text-align:center;
+}
+#currencies select{
+	width:90%;
+}
+
+#recordcompanies {}
+#recordcompanies .box-body {
+	text-align:center;
+}
+
+
+#musicgenres {}
+#musicgenres .box-body {
+	text-align:center;
+}
+
+
+
+/* ----------------------- TEXT BOXES ------------------------- */
+
+#languages {}
+#languages .box-body {
+	text-align:center;
+}
+
+
+#whosonline {}
+#whosonline .box-body {
+	text-align:left;
+	padding: 0 30px;
+}
+
+
+#documentcategories {}
+
+
+#shoppingcart ul{padding: 0 30px;}
+#shoppingcart .cartBoxTotal.price{padding: 3px 30px;}
+#shoppingcart .cart_line {}
+#shoppingcart #cartBoxEmpty {
+	text-align:left;
+	padding: 0 30px; 
+}
+#shoppingcart li a{
+	padding:0; background:none;
+}

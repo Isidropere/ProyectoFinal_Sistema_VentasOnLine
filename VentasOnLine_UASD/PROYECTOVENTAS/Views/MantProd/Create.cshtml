@@ -1,0 +1,282 @@
+﻿@model PROYECTOVENTAS.tb_producto
+@using PROYECTOVENTAS.Models;
+@{
+    ViewBag.Title = "index2";
+    Usuario usuario = (Usuario)Session["usuario"];
+    string mensaje = (string)Session["mensaje"];
+    Session["mensaje"] = null;
+}
+
+<!DOCTYPE html>
+
+<html class="no-js">
+ <!--<![endif]-->
+<html lang="es">
+
+ 
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Intranet Corporativa &bull; CompuVentas</title>
+    <!-- Forza al Navegador IE a utilizar el motor de Webkit -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!--link rel="stylesheet" href="css/normalize.css"-->
+    <link href="/Content/css1/styles.v2.css" rel="stylesheet">
+    <link rel="stylesheet" href="/Content/css1/responsive.css">
+    <script type="text/javascript">
+        var xajaxRequestUri = "index.html";
+        var xajaxDebug = false;
+        var xajaxStatusMessages = false;
+        var xajaxWaitCursor = true;
+        var xajaxDefinedGet = 0;
+        var xajaxDefinedPost = 1;
+        var xajaxLoaded = false;
+        function xajax_checkAccess() { return xajax.call("checkAccess", arguments, 1); }
+        function xajax_logout() { return xajax.call("logout", arguments, 1); }
+    </script>
+    <script type="text/javascript" src="/Content/inc/xajax/xajax_js/xajax.js"></script>
+    <script type="text/javascript">
+        window.setTimeout(function () { if (!xajaxLoaded) { alert('Error: the xajax Javascript file could not be included. Perhaps the URL is incorrect?\nURL: inc/xajax/xajax_js/xajax.js'); } }, 6000);
+    </script>
+</head>
+<body>
+    <div id="header">
+        <h1>
+            <img style="margin-right: 250px" src="/Content/img/logo2.png" alt="">
+            @if (usuario != null)
+            {
+                <span style="color:black;margin-right: -380px;font-size: 20px;float: left;">Bienvenido  @usuario.nombresUsuario @usuario.apePatUsuario</span>
+                <a style="float: left; font-size:15px; margin-left:250px;" href="@Url.Action("logouUsuario2", "Usuario")">Cerrar Sesión</a>
+            }
+            else
+            {
+
+            }
+
+        </h1>
+
+
+
+
+
+    </div>
+    <div id="nav">
+
+        @if (usuario != null)
+        {
+            if (usuario.idRol == 2)
+            {
+                <ul>
+                    <li>
+                        <img src="/Content/img/computadora.gif" alt="">
+                        <a href="@Url.Action("Create", "MantProd")">
+                            Mantenimiento de Productos
+                        </a>
+                    </li>
+
+
+
+                </ul>
+            }
+            if (usuario.idRol == 3)
+            {
+                <ul>
+
+
+
+                    <li>
+                        <img src="/Content/img/consulta.gif" alt="">
+                        <a href="@Url.Action("ConsultaPedidoxCliente", "Consulta")">
+                            Consulta de Pedidos por Clientes
+                        </a>
+                    </li>
+
+                    <li>
+                        <img src="/Content/img/consulta.gif" alt="">
+                        <a href="@Url.Action("ConsultaPedidoxProducto", "Consulta")">
+                            Consulta de Pedidos por Productos
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <img src="/Content/img/consulta.gif" alt="">
+                        <a href="@Url.Action("Index", "Consulta")">
+                            Consulta de Pedidos por comprobante
+                        </a>
+                    </li>
+
+
+
+                    <li>
+                        <img src="/Content/img/consulta.gif" alt="">
+                        <a href="@Url.Action("TopClientes", "Consulta")">
+                            Consulta de Clientes con más compras
+                        </a>
+                    </li>
+                    <li>
+                        <img src="/Content/img/consulta.gif" alt="">
+                        <a href="@Url.Action("TopProductos", "Consulta")">
+                            Consulta de Productos más vendidos
+                        </a>
+                    </li>
+
+
+
+
+
+
+                </ul>
+            }
+
+        }
+        else
+        {
+            <img width="220" height="0" />
+        }
+
+
+    </div>
+    <div class="contenedor">
+        <div class="logo_Login">
+
+
+            @using (Html.BeginForm())
+            {
+                @Html.ValidationSummary(true)
+
+                <fieldset>
+                    <legend>Crear Producto</legend>
+
+
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.nomProducto)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.nomProducto)
+                        @Html.ValidationMessageFor(model => model.nomProducto)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.descProducto)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.descProducto)
+                        @Html.ValidationMessageFor(model => model.descProducto)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.precioProducto)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.precioProducto)
+                        @Html.ValidationMessageFor(model => model.precioProducto)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.stockProducto)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.stockProducto)
+                        @Html.ValidationMessageFor(model => model.stockProducto)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.idCategoria, "tb_categoria")
+                    </div>
+                    <div class="editor-field">
+                        @Html.DropDownList("idCategoria", String.Empty)
+                        @Html.ValidationMessageFor(model => model.idCategoria)
+                    </div>
+
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.estadoProducto)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.estadoProducto)
+                        @Html.ValidationMessageFor(model => model.estadoProducto)
+                    </div>
+
+                    <div class="editor-field">
+                        <input type="file" name="image" />
+                    </div>
+
+                    <input type="submit" value="Crear Producto" />
+
+                </fieldset>
+            }
+
+            <div>
+                @Html.ActionLink("Back to List", "Index")
+            </div>
+
+            @section Scripts {
+                @Scripts.Render("~/bundles/jqueryval")
+            }
+
+
+        </div>
+        <div class="divider" style="display:none;"></div>
+
+        <input type="hidden" name="w" id="w" />
+        <input type="hidden" name="h" id="h" />
+    </div>
+    <div id="divModulos"></div>
+    </div>
+    <!--script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script-->
+    <script src="/Content/js1/scripts.v2.js" type="text/javascript"></script>
+    <!--script>
+        $(document).on("ready", function(){
+            $("#btlogin").on("click", function(){
+                xajax_checkAccess(getFormValues('frm'));
+            });
+        });
+    </script-->
+    <script language="javascript" type="text/javascript">
+		document.getElementById('w').value = window.screen.availWidth
+		document.getElementById('h').value = window.screen.availHeight
+		function checkKeyCode(evt){
+			var evt = (evt) ? evt : ((event) ? event : null);
+			var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
+			if(event.keyCode==116){
+			evt.keyCode=0;
+			return false
+			}
+		}
+
+		$(document).ready(function () {
+		    var msj = "@mensaje";
+              if (msj != null && msj != "") {
+                  $("#textoMsj").html(msj);
+                  $('#modalMensaje').modal({
+                      backdrop: false
+                  });
+              }
+
+		function removeElement(divId) {
+			var d = document.getElementById('divTodo');
+			var olddiv = document.getElementById(divId);
+			d.removeChild(olddiv);
+		}
+		window.onload=function() {
+			document.getElementById('txtusuario').focus();
+			//document.onkeydown = checkKeyCode;
+			if (screen.width + "x" +screen.height == "800x600") {
+				removeElement('divPie');
+			}
+		}
+		<!--
+		xajax.loadingFunction =
+		function(){xajax.$('loadingMessage').style.display='block';};
+		function hideLoadingMessage()
+		{
+			xajax.$('loadingMessage').style.display = 'none';
+		}
+		xajax.doneLoadingFunction = hideLoadingMessage;
+		// -->
+    </script>
+</body>
+
+<!-- Mirrored from portal.pueblobonito.com.mx/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Jul 2015 19:11:26 GMT -->
+</html>

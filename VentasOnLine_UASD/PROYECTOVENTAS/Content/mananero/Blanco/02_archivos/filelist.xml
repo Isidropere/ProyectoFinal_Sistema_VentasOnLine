@@ -1,0 +1,16 @@
+<xml xmlns:o="urn:schemas-microsoft-com:office:office">
+ <o:File HRef="master111.htm"/>
+ <o:File HRef="master111.xml"/>
+ <o:File HRef="preview.wmf"/>
+ <o:File HRef="pres.xml"/>
+ <o:File HRef="slide0008.htm"/>
+ <o:File HRef="slide0008_image001.jpg"/>
+ <o:File HRef="slide0008_image002.gif"/>
+ <o:File HRef="slide0008_image003.gif"/>
+ <o:File HRef="slide0008_image004.png"/>
+ <o:File HRef="slide0008_image005.gif"/>
+ <o:File HRef="master01.htm"/>
+ <o:File HRef="master111_stylesheet.css"/>
+ <o:MainFile HRef="../02.htm"/>
+ <o:File HRef="filelist.xml"/>
+</xml>

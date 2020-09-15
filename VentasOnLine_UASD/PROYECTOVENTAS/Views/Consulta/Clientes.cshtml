@@ -1,0 +1,90 @@
+﻿@model IEnumerable<PROYECTOVENTAS.tb_usuario>
+
+@{
+    ViewBag.Title = "Clientes";
+}
+
+<h2>Clientes</h2>
+
+@using (@Html.BeginForm("Clientes", "Consulta", FormMethod.Get))
+{
+    <input id="usu" name="usu" type="text">
+
+
+    <input type="submit" value="Buscar" />
+
+}
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.idUsuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.correoUsuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.claveUsuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nombresUsuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.apePatUsuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.apeMatUsuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dniUsuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.fecNacimientoUsuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.telefonoUsuario)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.celularUsuario)
+        </th>
+
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.correoUsuario)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.nombresUsuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.apePatUsuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.apeMatUsuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dniUsuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fecNacimientoUsuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.telefonoUsuario)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.celularUsuario)
+            </td>
+
+
+
+
+        </tr>
+    }
+
+</table>

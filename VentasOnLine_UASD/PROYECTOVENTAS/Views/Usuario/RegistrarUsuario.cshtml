@@ -1,0 +1,111 @@
+﻿@{
+    Layout = "~/Views/Plantillas/plantilla.cshtml";
+    ViewBag.Title = "RegistrarUsuario";
+}
+
+<td id="column-center" valign="top">
+    <h1 id="productListHeading">CLIENTE NUEVO</h1>
+
+    <div class="modal-body">
+        @using (Html.BeginForm("RegistrarUsuario", "Usuario", FormMethod.Post, new { onsubmit = "return validarContraseñas();" }))
+        {
+            <input type="text" placeholder="Documento" style="width:150px;" required="required" name="dniUsuario" maxlength="11" onkeypress="return beta(event)" /> <span> *</span><br />
+            <input type="text" placeholder="Nombres" style="width:150px;" required="required" name="nombresUsuario" /> <span> *</span><br />
+            <input type="text" placeholder="Apellido Paterno" style="width:150px;" required="required" name="apePatUsuario" /> <span> *</span><br />
+            <input type="text" placeholder="Apellido Materno" style="width:150px;" required="required" name="apeMatUsuario" /> <span> *</span><br />
+            <input type="text" placeholder="Dirección" style="width:350px;" required="required" /> <span> *</span><br />
+            <input type="text" placeholder="Teléfono" style="width:100px;" required="required" name="telefonoUsuario" maxlength="10" onkeypress="return beta(event)" /> <span> *</span><br />
+            <input type="text" placeholder="Celular" style="width:100px;" required="required" name="celularUsuario" maxlength="10" onkeypress="return beta(event)" /> <span> *</span><br />
+            <input type="email" placeholder="Correo electrónico" style="width:250px;" required="required" name="correoUsuario" id='id_mail' onKeyUp="javascript:validateMail('id_mail')" /> <span> *</span><br />
+            <input type="password" id="txtContrasena" placeholder="Contraseña" style="width:150px;" required="required" name="claveUsuario" /> <span> *</span>
+            <br />
+            <input type="password" id="txtContrasena2" placeholder="Confirmar Contraseña" style="width:150px;" required="required" /> <span> *</span>
+            <br />
+            <span id="lblMensaje" style="color:red;"></span>
+            <br />
+            <input type="submit" class="btn btn-primary btn-small" value="Registrarme" style="float:initial;" />
+
+            <br />
+            <br />
+            <span>Campo requerido (*)</span>
+        }
+    </div>
+
+</td>
+
+<script>
+    $(document).ready(function () {
+
+
+        validarContraseñas = function () {
+            if ($("#txtContrasena").val() != $("#txtContrasena2").val()) {
+                $("#lblMensaje").html("Las contraseñas deben coincidir");
+                return false;
+            } else {
+                $("#lblMensaje").html("");
+            }
+        };
+
+        $("#btnIngresar").click(function () {
+            $("#divLogin").slideToggle();
+        });
+
+        $("#btnMenuUsuario").click(function () {
+            $("#divMenuUsuario").slideToggle();
+        });
+
+        $("#btnRegistrarme").click(function () {
+            $('#modalRenzo').modal('show');
+        });
+
+
+    });
+</script>
+
+<script type="text/javascript">
+
+    function beta(e) {
+        key = e.KeyCode || e.which;
+        teclado = String.fromCharCode(key);
+        numeros = "0123456789";
+        especiales = "8-37-39-46";
+        teclado_especial = false;
+        for (var i in especiales) {
+            if (key === especiales[i]) {
+                teclado_especial = true;
+                //break;
+            }
+        }
+        if (numeros.indexOf(teclado) === -1 && !teclado_especial) {
+            //alert (key);
+            return false;
+
+        }
+
+    }
+
+</script>
+
+<script type="text/javascript">
+<!--
+    /*
+     * Función para validar una dirección de correo
+     * Tiene que recibir el identificador del formulario
+     */
+    function validateMail(idMail) {
+        //Creamos un objeto
+        object = document.getElementById(idMail);
+        valueForm = object.value;
+
+        // Patron para el correo
+        var patron = /^\w+([\.-]?\w+)/;
+        if (valueForm.search(patron) == 0) {
+            //Mail correcto
+            object.style.color = "#000";
+            return;
+        }
+        //Mail incorrecto
+        object.style.color = "#f00";
+    }
+//-->
+</script>

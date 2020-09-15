@@ -1,0 +1,27 @@
+<xml xmlns:v="urn:schemas-microsoft-com:vml"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:p="urn:schemas-microsoft-com:office:powerpoint"
+ xmlns:oa="urn:schemas-microsoft-com:office:activation">
+ <p:presentation sizeof="screen" gridspacingx="46448" gridspacingy="46448"
+  subsetembed="1">
+  <p:master id="111" slidesn="1D02510,50C5D030" type="main" href="master111.htm"
+   xmlhref="master111.xml" template="Tema de Office" layout="title_body"
+   slots="title,body,dateTime,footer,slideNumber">
+   <p:schemes>
+   </p:schemes>
+  </p:master>
+  <p:master id="1" slidesn="1D00D7F,17C72840" type="notes" href="master01.htm"
+   layout="notes" slots="header,dateTime,slideImage,body,footer,slideNumber"/>
+  <p:slide id="8" slidesn="0,0" href="slide0008.htm"/>
+  <p:viewstate type="slideView" scale="67" restoredleft="155" restoredtop="946"
+   manualadjustleft="t" manualadjusttop="t" hideoutlineicons="t"/>
+  <p:headersfooters nouserdate="t" nofooter="t" noheader="t" nodate="t"
+   todaydate="t"/>
+  <p:headersfooters notes="t" nouserdate="t" nofooter="t" noheader="t"
+   nodate="t" todaydate="t"/>
+  <p:pptdocumentsettings framecolors="WhiteTextOnBlack" hideslideanimation="t"
+   browsersupport="v4"/>
+ </p:presentation>
+ <o:shapedefaults v:ext="edit" spidmax="4101">
+  <o:colormru v:ext="edit" colors="#030,#f39,fuchsia,maroon,#840e65,#5d1f0b,#ef3e07,#669"/>
+ </o:shapedefaults></xml>

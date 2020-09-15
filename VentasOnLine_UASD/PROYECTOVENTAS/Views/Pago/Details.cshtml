@@ -1,0 +1,92 @@
+﻿@model PROYECTOVENTAS.PAGO
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>PAGO</legend>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.in_id_pago)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.in_id_pago)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.tb_usuario1.correoUsuario)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.tb_usuario1.correoUsuario)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.tb_usuario.correoUsuario)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.tb_usuario.correoUsuario)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.in_id_tipopaVisa)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.in_id_tipopaVisa)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.in_id_tipopaMastercard)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.in_id_tipopaMastercard)
+    </div>
+
+    @*<div class="display-label">
+        @Html.DisplayNameFor(model => model.banco)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.banco)
+    </div>*@
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.vc_dsc_numerotar)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.vc_dsc_numerotar)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.dt_fechaEmision)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.dt_fechaEmision)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.cvc)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.cvc)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.in_id_estado)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.in_id_estado)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.fechaven)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.fechaven)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

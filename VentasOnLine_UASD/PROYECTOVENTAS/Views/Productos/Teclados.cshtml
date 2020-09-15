@@ -1,0 +1,101 @@
+﻿@{
+    ViewBag.Title = "Alimentos";
+    Layout = "~/Views/Plantillas/plantilla.cshtml";
+    List<PROYECTOVENTAS.Models.Producto> productos = ViewBag.productos;
+    List<PROYECTOVENTAS.Models.Producto> carro = (List<PROYECTOVENTAS.Models.Producto>)Session["carro"];
+}
+
+<td id="column-center" valign="top">
+    <h1 id="productListHeading">TECLADOS</h1>
+    <form name="multiple_products_cart_quantity" action="#" method="post" enctype="multipart/form-data">
+        <div id="productsListingTopNumber" class="navSplitPagesResult fleft"></div>
+        <div class="tie tie-margin1">
+            <div class="tie-indent">
+
+                <div class="buttonRow forward"></div>
+                <br class="clearBoth">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" id="cat1Table" class="tabTable">
+
+                    <tr class="productListing-rowheading">
+                        <th class="productListing-heading" align="center" scope="col" id="listCell0-0">IMAGEN</th>
+                        <th class="productListing-heading" scope="col" id="listCell0-1">
+                            <a href="#" title="Ordenar por Nombre" class="productListing-heading">
+                                NOMBRE
+                            </a>
+                        </th>
+                        <th class="productListing-heading" align="right" width="125" scope="col" id="listCell0-2">
+                            <a href="#" title="Ordenar por Precio" class="productListing-heading">PRECIO</a>
+                        </th>
+                    </tr>
+                    @foreach (var prod in productos)
+                    {
+                        <tr class="productListing-odd">
+                            <td class="productListing-data" align="center">
+                                <a href="@Url.Action("Detalle", "Productos", new { idprod = @prod.idProducto })">
+                                    <img width="1400" height="800" alt="" id="tmp" src="@Url.Content("~/Content/imagenes/productos/" + @prod.idProducto + ".jpg")">
+                                </a>
+                            </td>
+                            <td class="productListing-data">
+                                <h3 class="itemTitle">
+                                    <a href="@Url.Action("Detalle", "Productos", new { idprod = @prod.idProducto })">
+                                        @prod.nomProducto
+                                    </a>
+                                </h3><div class="listingDescription">@prod.descProducto</div>
+                            </td>
+
+
+                            <td class="productListing-data" align="right">
+                                <span class="price">
+                                    &nbsp;<span class="productSpecialPrice">
+                                        RD$.@prod.precioProducto.ToString("0.00")
+                                        <p>
+                                            @if (prod.stockProducto < 1)
+                                            {
+                                                <a class="btn btn-primary disabled">Agotado</a>
+                                            }
+                                            else
+                                            {
+                                                using (Html.BeginForm("Agregar", "Productos", FormMethod.Post, new { @class = "form-inline" }))
+                                                {
+                                                    <input type="hidden" value="@prod.idProducto" name="idProducto" />
+                                                    <input type="hidden" value="1" name="cantidad" />
+                                                    if (carro != null)
+                                                    {
+                                                        if ((carro.Find(Producto => Producto.idProducto == prod.idProducto)) == null)
+                                                        {
+                                                            <input type="submit" class="btn btn-primary" value="Agregar al carro" />
+
+                                                        }
+                                                        else
+                                                        {
+                                                            <a class="btn btn-primary disabled">Agregado</a>
+                                                        }
+                                                    }
+                                                    else
+                                                    {
+                                                        <input type="submit" class="btn btn-primary" value="Agregar al carro" />
+                                                    }
+                                                }
+                                            }
+
+                                        </p>
+                                    </span>
+                                </span><br><br>
+                            </td>
+
+                            <!--  <p><a class="" href="#">Add to Wish List</a></p>
+                            <p><a class="" href="compare.html">Add to Compare</a></p> -->
+
+                        </tr>
+                    }
+                </table>
+
+                <div class="buttonRow forward"></div>
+            </div>
+        </div>
+    </form>
+    <script>
+        document.getElementById('catAlimentos').className = "";
+        document.getElementById('catAlimentos').className = "active";
+    </script>
+</td>

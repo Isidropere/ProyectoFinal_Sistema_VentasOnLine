@@ -1,0 +1,715 @@
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+C:\Users\User\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll.config
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Net.Http.Formatting.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.WebHost.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Net.Http.Formatting.xml
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.xml
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.WebHost.xml
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Http.resources.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+C:\Users\Usuario\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Net.Http.Formatting.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.WebHost.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Net.Http.Formatting.xml
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.xml
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.WebHost.xml
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Net.Http.Formatting.resources.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Http.resources.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Http.WebHost.resources.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csprojResolveAssemblyReference.cache
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+I:\ \5TO CICLO-CIBERTEC\EntornoWEB\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csprojResolveAssemblyReference.cache
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+C:\Users\Alvaro\Desktop\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+C:\Users\User\Desktop\dd\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Net.Http.Formatting.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.WebHost.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Net.Http.Formatting.xml
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.xml
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.WebHost.xml
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Http.resources.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csprojResolveAssemblyReference.cache
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+C:\Users\User\Pictures\Slide Shows\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csprojResolveAssemblyReference.cache
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+H:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll.config
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csprojResolveAssemblyReference.cache
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+D:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csprojResolveAssemblyReference.cache
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+I:\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+I:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csprojResolveAssemblyReference.cache
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll.config
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csprojResolveAssemblyReference.cache
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+D:\ \DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+C:\Users\User\Desktop\asd\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+C:\Users\User\Desktop\DEWPROYECTOFULL\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csprojResolveAssemblyReference.cache
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+I:\ \PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+D:\usb\5ciclo\POO3\PROYECTOSUPERFULLDEW\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csprojResolveAssemblyReference.cache
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csprojResolveAssemblyReference.cache
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+I:\ \finaldew\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll.config
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.CrystalReports.Design.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportSource.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.Shared.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.Web.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Net.Http.Formatting.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.WebHost.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\stdole.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Net.Http.Formatting.xml
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.xml
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.WebHost.xml
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Net.Http.Formatting.resources.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Http.resources.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Http.WebHost.resources.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csprojResolveAssemblyReference.cache
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+D:\Escritorio\PROYECTOS\Desarrollo para entorno web\2015-1\LPIII-30\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll.config
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Net.Http.Formatting.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.WebHost.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\stdole.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Net.Http.Formatting.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.WebHost.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Http.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csprojAssemblyReference.cache
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csproj.CoreCompileInputs.cache
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csproj.CopyComplete
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll.config
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\PROYECTOVENTAS.pdb
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\Antlr3.Runtime.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Net.Http.Formatting.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.WebHost.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Optimization.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Providers.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\WebGrease.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\stdole.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\EntityFramework.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\Newtonsoft.Json.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Net.Http.Formatting.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Http.WebHost.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Mvc.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.Razor.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Deployment.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\System.Web.WebPages.Razor.xml
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\EntityFramework.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Net.Http.Formatting.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Http.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Http.WebHost.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Mvc.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Optimization.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Providers.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.Razor.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csprojAssemblyReference.cache
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csproj.CoreCompileInputs.cache
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.csproj.CopyComplete
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.dll
+C:\Users\CHIP\Desktop\Muestra de proyecto\CIBER VENTAS - Copy\Fuente\PROYECTOVENTAS\PROYECTOVENTAS\obj\Debug\PROYECTOVENTAS.pdb

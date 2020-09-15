@@ -1,0 +1,983 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9D94816A-C6C0-4585-B861-80DEBDAF8A4E}</ProjectGuid>
+    <ProjectTypeGuids>{E3E379DF-F4C6-4180-9B81-6769533ABE47};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PROYECTOVENTAS</RootNamespace>
+    <AssemblyName>PROYECTOVENTAS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Providers">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.1.1\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.2.0.20710.0\lib\net40\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.1.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="AspNetForms\aspnetgeneric.aspx.cs">
+      <DependentUpon>aspnetgeneric.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AspNetForms\aspnetgeneric.aspx.designer.cs">
+      <DependentUpon>aspnetgeneric.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CompuVentas.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CompuVentas.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CompuVentas.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CompuVentas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CompuVentas.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\ConsultaController.cs" />
+    <Compile Include="Controllers\GenericReportViewerController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MantProdController.cs" />
+    <Compile Include="Controllers\PagoController.cs" />
+    <Compile Include="Controllers\ProductosController.cs" />
+    <Compile Include="Controllers\UsuarioController.cs" />
+    <Compile Include="DETALLEPAGO.cs">
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DocPaga.cs">
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Distrito.cs" />
+    <Compile Include="Models\Modelo.cs" />
+    <Compile Include="Models\Producto.cs" />
+    <Compile Include="Models\Rol.cs" />
+    <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Models\Venta.cs" />
+    <Compile Include="PAGO.cs">
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="pagoconsulta.cs">
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PEDIDOXCLIENTEXTODOS_Result.cs">
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PEDIDOXCOMPROBANTE_Result.cs">
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PEDIDOXPRODUCTOXTODOS1_Result.cs">
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PEDIDOXPRODUCTOXTODOS_Result.cs">
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="REPORPEDIDODOCUMENTO_Result.cs">
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="REPORTPAGO_Result.cs">
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\generic.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>generic.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptConsultaClientePedido1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptConsultaClientePedido.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptConsultaProductoPedido1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptConsultaProductoPedido.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptDocumento1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptDocumento.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptTopClientes.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTopClientes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rptTopProductos.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptTopProductos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_Pago1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_Pago1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_Pago2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_Pago2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="tb_categoria.cs">
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_producto.cs">
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_rol.cs">
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_usuario.cs">
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_venta.cs">
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tb_ventaxproducto.cs">
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TOPCLIENTES_Result.cs">
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TOPPRODUCTOS_Result.cs">
+      <DependentUpon>CompuVentas.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\Dto\Correo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AspNetForms\aspnetgeneric.aspx" />
+    <Content Include="Content\css1\styles.v6.css" />
+    <Content Include="Content\css1\styles.v5.css" />
+    <Content Include="Content\css1\styles.v3.css" />
+    <Content Include="Content\css1\form_buttons.png" />
+    <Content Include="Content\css1\img\menu_header.html" />
+    <Content Include="Content\css1\PIE.html" />
+    <Content Include="Content\css1\responsive.css" />
+    <Content Include="Content\css1\round-button.css" />
+    <Content Include="Content\css1\styles.css" />
+    <Content Include="Content\css1\styles.v2.css" />
+    <Content Include="Content\css1\themes\aqua.css" />
+    <Content Include="Content\css1\themes\aqua\active-bg.gif" />
+    <Content Include="Content\css1\themes\aqua\dark-bg.gif" />
+    <Content Include="Content\css1\themes\aqua\hover-bg.gif" />
+    <Content Include="Content\css1\themes\aqua\menuarrow.gif" />
+    <Content Include="Content\css1\themes\aqua\normal-bg.gif" />
+    <Content Include="Content\css1\themes\aqua\rowhover-bg.gif" />
+    <Content Include="Content\css1\themes\aqua\status-bg.gif" />
+    <Content Include="Content\css1\themes\aqua\title-bg.gif" />
+    <Content Include="Content\css\bootstrap\bootstrap.css" />
+    <Content Include="Content\css\jquery.rating.css" />
+    <Content Include="Content\css\main.css" />
+    <Content Include="Content\dhtmlxSuite\dhtmlxGrid\codebase\dhtmlxcommon.js" />
+    <Content Include="Content\dhtmlxSuite\dhtmlxGrid\codebase\dhtmlxgrid.css" />
+    <Content Include="Content\dhtmlxSuite\dhtmlxGrid\codebase\dhtmlxgrid.js" />
+    <Content Include="Content\dhtmlxSuite\dhtmlxGrid\codebase\dhtmlxgridcell.js" />
+    <Content Include="Content\dhtmlxSuite\dhtmlxGrid\codebase\ext\dhtmlxgrid_filter.js" />
+    <Content Include="Content\dhtmlxSuite\dhtmlxGrid\codebase\ext\dhtmlxgrid_nxml.js" />
+    <Content Include="Content\dhtmlxSuite\dhtmlxGrid\codebase\ext\dhtmlxgrid_pgn.html" />
+    <Content Include="Content\dhtmlxSuite\dhtmlxGrid\codebase\ext\dhtmlxgrid_pgn_bricks.html" />
+    <Content Include="Content\dhtmlxSuite\dhtmlxGrid\codebase\ext\dhtmlxgrid_srnd.js" />
+    <Content Include="Content\dhtmlxSuite\dhtmlxGrid\codebase\imgs\header_bg.gif" />
+    <Content Include="Content\dhtmlxSuite\dhtmlxGrid\codebase\imgs\header_bg_60.gif" />
+    <Content Include="Content\dhtmlxSuite\dhtmlxGrid\codebase\imgs\skinC_header.png" />
+    <Content Include="Content\dhtmlxSuite\dhtmlxGrid\codebase\imgs\skinD_header.png" />
+    <Content Include="Content\dhtmlxSuite\dhtmlxGrid\codebase\imgs\skin_light_header.png" />
+    <Content Include="Content\dhtmlxSuite\dhtmlxGrid\codebase\imgs\skin_modern_header.png" />
+    <Content Include="Content\dhtmlxSuite\dhtmlxGrid\codebase\imgs\sky_blue_grid.gif" />
+    <Content Include="Content\imagenes\57.jpg" />
+    <Content Include="Content\imagenes\2_50.jpg" />
+    <Content Include="Content\imagenes\3_50.jpg" />
+    <Content Include="Content\imagenes\adaptador.jpg" />
+    <Content Include="Content\imagenes\bcp.png" />
+    <Content Include="Content\imagenes\bnr_nowAccepting_150x60.gif" />
+    <Content Include="Content\imagenes\carousel_1.jpg" />
+    <Content Include="Content\imagenes\carousel_2.jpg" />
+    <Content Include="Content\imagenes\carousel_3.jpg" />
+    <Content Include="Content\imagenes\Copia de 1_50.jpg" />
+    <Content Include="Content\imagenes\ico_ccvTar.png" />
+    <Content Include="Content\imagenes\ico_help1.png" />
+    <Content Include="Content\imagenes\ico_numTar.png" />
+    <Content Include="Content\imagenes\interbank.jpg" />
+    <Content Include="Content\imagenes\ipodtouch_image2_20080909.jpg" />
+    <Content Include="Content\imagenes\ipod_touch.jpg" />
+    <Content Include="Content\imagenes\lampara.jpg" />
+    <Content Include="Content\imagenes\marvel.jpg" />
+    <Content Include="Content\imagenes\mastercard.png" />
+    <Content Include="Content\imagenes\minicarro.jpg" />
+    <Content Include="Content\imagenes\paypal_mc_visa_amex_disc_150x139.gif" />
+    <Content Include="Content\imagenes\productos\1.jpg" />
+    <Content Include="Content\imagenes\productos\10.jpg" />
+    <Content Include="Content\imagenes\productos\11.jpg" />
+    <Content Include="Content\imagenes\productos\12.jpg" />
+    <Content Include="Content\imagenes\productos\13.jpg" />
+    <Content Include="Content\imagenes\productos\14.jpg" />
+    <Content Include="Content\imagenes\productos\15.jpg" />
+    <Content Include="Content\imagenes\productos\16.jpg" />
+    <Content Include="Content\imagenes\productos\17.jpg" />
+    <Content Include="Content\imagenes\productos\18.jpg" />
+    <Content Include="Content\imagenes\productos\19.jpg" />
+    <Content Include="Content\imagenes\productos\2.jpg" />
+    <Content Include="Content\imagenes\productos\20.jpg" />
+    <Content Include="Content\imagenes\productos\21.jpg" />
+    <Content Include="Content\imagenes\productos\22.jpg" />
+    <Content Include="Content\imagenes\productos\3.jpg" />
+    <Content Include="Content\imagenes\productos\4.jpg" />
+    <Content Include="Content\imagenes\productos\5.jpg" />
+    <Content Include="Content\imagenes\productos\57.jpg" />
+    <Content Include="Content\imagenes\productos\6.jpg" />
+    <Content Include="Content\imagenes\productos\60.jpg" />
+    <Content Include="Content\imagenes\productos\7.jpg" />
+    <Content Include="Content\imagenes\productos\8.jpg" />
+    <Content Include="Content\imagenes\productos\9.jpg" />
+    <Content Include="Content\imagenes\producto_popular_1.png" />
+    <Content Include="Content\imagenes\producto_popular_2.jpg" />
+    <Content Include="Content\imagenes\producto_popular_3.jpg" />
+    <Content Include="Content\imagenes\producto_popular_4.jpg" />
+    <Content Include="Content\imagenes\producto_popular_5.jpg" />
+    <Content Include="Content\imagenes\producto_popular_6.jpg" />
+    <Content Include="Content\imagenes\reloj.jpg" />
+    <Content Include="Content\imagenes\relojes.jpg" />
+    <Content Include="Content\imagenes\visa.png" />
+    <Content Include="Content\img\add.html" />
+    <Content Include="Content\img\add_all.html" />
+    <Content Include="Content\img\btn_01.gif" />
+    <Content Include="Content\img\btn_02.gif" />
+    <Content Include="Content\img\button_full.gif" />
+    <Content Include="Content\img\categoria.gif" />
+    <Content Include="Content\img\cliente.gif" />
+    <Content Include="Content\img\clock.png" />
+    <Content Include="Content\img\computadora.gif" />
+    <Content Include="Content\img\computadora.jpg" />
+    <Content Include="Content\img\consulta.gif" />
+    <Content Include="Content\img\contorno01.html" />
+    <Content Include="Content\img\CorpLogo.png" />
+    <Content Include="Content\img\distrito.gif" />
+    <Content Include="Content\img\downsimple.png" />
+    <Content Include="Content\img\email.png" />
+    <Content Include="Content\img\esferita.png" />
+    <Content Include="Content\img\footerbg.png" />
+    <Content Include="Content\img\guard.png" />
+    <Content Include="Content\img\header.html" />
+    <Content Include="Content\img\ie_toolbar_bg.jpg" />
+    <Content Include="Content\img\loadinfo_net.gif" />
+    <Content Include="Content\img\logo2.png" />
+    <Content Include="Content\img\logo.png" />
+    <Content Include="Content\img\mobile.png" />
+    <Content Include="Content\img\rem.html" />
+    <Content Include="Content\img\rem_all.html" />
+    <Content Include="Content\img\reports.png" />
+    <Content Include="Content\img\sh_pbnet_v2_05.html" />
+    <Content Include="Content\img\sh_pbnet_v2_14.html" />
+    <Content Include="Content\img\sh_pbnet_v2_28.html" />
+    <Content Include="Content\img\sombreado_abajo.html" />
+    <Content Include="Content\img\sombreado_esquina.html" />
+    <Content Include="Content\img\tab_active.gif" />
+    <Content Include="Content\img\tab_inactive.gif" />
+    <Content Include="Content\img\upsimple.png" />
+    <Content Include="Content\img\watermark.png" />
+    <Content Include="Content\inc\xajax\xajax_js\xajax.js" />
+    <Content Include="Content\js1\funciones_java.js" />
+    <Content Include="Content\js1\functions.js" />
+    <Content Include="Content\js1\scripts.v2.js" />
+    <Content Include="Content\js\bootstrap.js" />
+    <Content Include="Content\js\jquery.min.js" />
+    <Content Include="Content\js\jquery.rating.pack.js" />
+    <Content Include="Content\mananero\Blanco\02.html" />
+    <Content Include="Content\mananero\Blanco\02_archivos\2.html" />
+    <Content Include="Content\mananero\Blanco\02_archivos\editdata.html" />
+    <Content Include="Content\mananero\Blanco\02_archivos\filelist.xml" />
+    <Content Include="Content\mananero\Blanco\02_archivos\master111.xml" />
+    <Content Include="Content\mananero\Blanco\02_archivos\master111_stylesheet.css" />
+    <Content Include="Content\mananero\Blanco\02_archivos\pres.xml" />
+    <Content Include="Content\mananero\Blanco\02_archivos\slide0008.html" />
+    <Content Include="Content\mananero\Blanco\02_archivos\slide0008_image001.jpg" />
+    <Content Include="Content\mananero\Blanco\02_archivos\slide0008_image002.gif" />
+    <Content Include="Content\mananero\Blanco\02_archivos\slide0008_image003.gif" />
+    <Content Include="Content\mananero\Blanco\02_archivos\slide0008_image004.png" />
+    <Content Include="Content\mananero\Blanco\02_archivos\slide0008_image005.gif" />
+    <Content Include="Content\mananero\Emerald\04.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\10.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\11.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\12.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\13.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\2.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\3.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\4.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\5.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\6.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\7.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\8.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\9.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\buttons.gif" />
+    <Content Include="Content\mananero\Emerald\04_archivos\editdata.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\filelist.xml" />
+    <Content Include="Content\mananero\Emerald\04_archivos\frame.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\fullscreen.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\master01.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\master03.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\master03.xml" />
+    <Content Include="Content\mananero\Emerald\04_archivos\master03_stylesheet.css" />
+    <Content Include="Content\mananero\Emerald\04_archivos\notes_flag.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\outline.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\pres.xml" />
+    <Content Include="Content\mananero\Emerald\04_archivos\script.js" />
+    <Content Include="Content\mananero\Emerald\04_archivos\slide0103.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\slide0103_image003.gif" />
+    <Content Include="Content\mananero\Emerald\04_archivos\slide0104.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\slide0104_image004.gif" />
+    <Content Include="Content\mananero\Emerald\04_archivos\slide0105.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\slide0105_image005.gif" />
+    <Content Include="Content\mananero\Emerald\04_archivos\slide0106.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\slide0106_image006.gif" />
+    <Content Include="Content\mananero\Emerald\04_archivos\slide0107.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\slide0107_image007.gif" />
+    <Content Include="Content\mananero\Emerald\04_archivos\slide0108.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\slide0108_image008.gif" />
+    <Content Include="Content\mananero\Emerald\04_archivos\slide0109.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\slide0109_image009.gif" />
+    <Content Include="Content\mananero\Emerald\04_archivos\slide0110.html" />
+    <Content Include="Content\mananero\Emerald\04_archivos\slide0110_image001.png" />
+    <Content Include="Content\mananero\Emerald\04_archivos\slide0110_image002.gif" />
+    <Content Include="Content\mananero\goto.html" />
+    <Content Include="Content\mananero\goto0a0b.html" />
+    <Content Include="Content\mananero\goto0f89.html" />
+    <Content Include="Content\mananero\goto22cc.html" />
+    <Content Include="Content\mananero\goto76ef.html" />
+    <Content Include="Content\mananero\goto9865.html" />
+    <Content Include="Content\mananero\gotoc766.html" />
+    <Content Include="Content\mananero\gotod58d.html" />
+    <Content Include="Content\mananero\index.html" />
+    <Content Include="Content\mananero\js\scripts.js" />
+    <Content Include="Content\mananero\left.html" />
+    <Content Include="Content\mananero\leftmenu.files\dmenu.js" />
+    <Content Include="Content\mananero\leftmenu.files\index.html" />
+    <Content Include="Content\mananero\leftmenu.js" />
+    <Content Include="Content\mananero\main.html" />
+    <Content Include="Content\mananero\Mazatlan\01.html" />
+    <Content Include="Content\mananero\Mazatlan\01_archivos\2.html" />
+    <Content Include="Content\mananero\Mazatlan\01_archivos\editdata.html" />
+    <Content Include="Content\mananero\Mazatlan\01_archivos\filelist.xml" />
+    <Content Include="Content\mananero\Mazatlan\01_archivos\master03.xml" />
+    <Content Include="Content\mananero\Mazatlan\01_archivos\master03_background.gif" />
+    <Content Include="Content\mananero\Mazatlan\01_archivos\master03_stylesheet.css" />
+    <Content Include="Content\mananero\Mazatlan\01_archivos\pres.xml" />
+    <Content Include="Content\mananero\Mazatlan\01_archivos\slide0054.html" />
+    <Content Include="Content\mananero\Mazatlan\01_archivos\slide0054_image001.png" />
+    <Content Include="Content\mananero\Mazatlan\01_archivos\slide0054_image002.gif" />
+    <Content Include="Content\mananero\Mazatlan\01_archivos\slide0054_image003.png" />
+    <Content Include="Content\mananero\Mazatlan\01_archivos\slide0054_image004.gif" />
+    <Content Include="Content\mananero\Montecristo\06.html" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\2.html" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\editdata.html" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\filelist.xml" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\master03.xml" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\master03_stylesheet.css" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\pres.xml" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\slide0151.html" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\slide0151_image001.jpg" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\slide0151_image002.gif" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\slide0151_image003.gif" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\slide0151_image004.png" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\slide0151_image005.gif" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\slide0151_image006.gif" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\slide0151_image007.gif" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\slide0151_image008.gif" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\slide0151_image009.png" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\slide0151_image010.gif" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\slide0151_image011.png" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\slide0151_image012.gif" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\slide0151_image013.png" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\slide0151_image014.gif" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\slide0151_image015.gif" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\slide0151_image016.gif" />
+    <Content Include="Content\mananero\Pacifica\07.html" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\2.html" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\editdata.html" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\filelist.xml" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\master03.xml" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\master03_stylesheet.css" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\pres.xml" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\slide0145.html" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\slide0145_image001.jpg" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\slide0145_image002.gif" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\slide0145_image003.gif" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\slide0145_image004.png" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\slide0145_image005.gif" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\slide0145_image006.gif" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\slide0145_image007.gif" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\slide0145_image008.gif" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\slide0145_image009.png" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\slide0145_image010.gif" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\slide0145_image011.png" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\slide0145_image012.gif" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\slide0145_image013.png" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\slide0145_image014.gif" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\slide0145_image015.gif" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\slide0145_image016.gif" />
+    <Content Include="Content\mananero\Rose\03.html" />
+    <Content Include="Content\mananero\Rose\03_archivos\2.html" />
+    <Content Include="Content\mananero\Rose\03_archivos\editdata.html" />
+    <Content Include="Content\mananero\Rose\03_archivos\filelist.xml" />
+    <Content Include="Content\mananero\Rose\03_archivos\master111.xml" />
+    <Content Include="Content\mananero\Rose\03_archivos\master111_stylesheet.css" />
+    <Content Include="Content\mananero\Rose\03_archivos\pres.xml" />
+    <Content Include="Content\mananero\Rose\03_archivos\slide0008.html" />
+    <Content Include="Content\mananero\Rose\03_archivos\slide0008_image001.jpg" />
+    <Content Include="Content\mananero\Rose\03_archivos\slide0008_image002.gif" />
+    <Content Include="Content\mananero\Rose\03_archivos\slide0008_image003.gif" />
+    <Content Include="Content\mananero\Rose\03_archivos\slide0008_image004.png" />
+    <Content Include="Content\mananero\Rose\03_archivos\slide0008_image005.gif" />
+    <Content Include="Content\mananero\Sunset\05.html" />
+    <Content Include="Content\mananero\Sunset\05_archivos\2.html" />
+    <Content Include="Content\mananero\Sunset\05_archivos\editdata.html" />
+    <Content Include="Content\mananero\Sunset\05_archivos\filelist.xml" />
+    <Content Include="Content\mananero\Sunset\05_archivos\master03.xml" />
+    <Content Include="Content\mananero\Sunset\05_archivos\master03_stylesheet.css" />
+    <Content Include="Content\mananero\Sunset\05_archivos\pres.xml" />
+    <Content Include="Content\mananero\Sunset\05_archivos\slide0146.html" />
+    <Content Include="Content\mananero\Sunset\05_archivos\slide0146_image001.jpg" />
+    <Content Include="Content\mananero\Sunset\05_archivos\slide0146_image002.gif" />
+    <Content Include="Content\mananero\Sunset\05_archivos\slide0146_image003.gif" />
+    <Content Include="Content\mananero\Sunset\05_archivos\slide0146_image004.png" />
+    <Content Include="Content\mananero\Sunset\05_archivos\slide0146_image005.gif" />
+    <Content Include="Content\mananero\Sunset\05_archivos\slide0146_image006.gif" />
+    <Content Include="Content\mananero\Sunset\05_archivos\slide0146_image007.gif" />
+    <Content Include="Content\mananero\Sunset\05_archivos\slide0146_image008.gif" />
+    <Content Include="Content\mananero\Sunset\05_archivos\slide0146_image009.png" />
+    <Content Include="Content\mananero\Sunset\05_archivos\slide0146_image010.gif" />
+    <Content Include="Content\mananero\Sunset\05_archivos\slide0146_image011.png" />
+    <Content Include="Content\mananero\Sunset\05_archivos\slide0146_image012.gif" />
+    <Content Include="Content\mananero\Sunset\05_archivos\slide0146_image013.png" />
+    <Content Include="Content\mananero\Sunset\05_archivos\slide0146_image014.gif" />
+    <Content Include="Content\mananero\Sunset\05_archivos\slide0146_image015.gif" />
+    <Content Include="Content\mananero\Sunset\05_archivos\slide0146_image016.gif" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\minified\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.accordion.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.button.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\mananero\Blanco\02_archivos\preview.wmf" />
+    <Content Include="Content\mananero\Emerald\04_archivos\preview.wmf" />
+    <Content Include="Content\mananero\Mazatlan\01_archivos\preview.wmf" />
+    <Content Include="Content\mananero\Montecristo\06_archivos\preview.wmf" />
+    <Content Include="Content\mananero\Pacifica\07_archivos\preview.wmf" />
+    <Content Include="Content\mananero\Rose\03_archivos\preview.wmf" />
+    <Content Include="Content\mananero\Sunset\05_archivos\preview.wmf" />
+    <EntityDeploy Include="CompuVentas.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CompuVentas.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="CompuVentas.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CompuVentas.edmx</DependentUpon>
+      <LastGenOutput>CompuVentas.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="CompuVentas.edmx.diagram">
+      <DependentUpon>CompuVentas.edmx</DependentUpon>
+    </Content>
+    <Content Include="CompuVentas.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CompuVentas.edmx</DependentUpon>
+      <LastGenOutput>CompuVentas.cs</LastGenOutput>
+    </Content>
+    <None Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="images\01-1.png" />
+    <Content Include="images\01-2.png" />
+    <Content Include="images\01-3.png" />
+    <Content Include="images\01.png" />
+    <Content Include="images\02-1.png" />
+    <Content Include="images\02-2.png" />
+    <Content Include="images\02-3.png" />
+    <Content Include="images\02.png" />
+    <Content Include="images\03-1.png" />
+    <Content Include="images\03-2.png" />
+    <Content Include="images\03-3.png" />
+    <Content Include="images\03.png" />
+    <Content Include="images\04-1.png" />
+    <Content Include="images\04-2.png" />
+    <Content Include="images\04-3.png" />
+    <Content Include="images\04.png" />
+    <Content Include="images\05-1.png" />
+    <Content Include="images\05-2.png" />
+    <Content Include="images\05-3.png" />
+    <Content Include="images\05.png" />
+    <Content Include="images\06-1.png" />
+    <Content Include="images\06-2.png" />
+    <Content Include="images\06-3.png" />
+    <Content Include="images\06.png" />
+    <Content Include="images\07-1.png" />
+    <Content Include="images\07-2.png" />
+    <Content Include="images\07-3.png" />
+    <Content Include="images\07.png" />
+    <Content Include="images\08-1.png" />
+    <Content Include="images\08-2.png" />
+    <Content Include="images\08-3.png" />
+    <Content Include="images\08.png" />
+    <Content Include="images\09-1.png" />
+    <Content Include="images\09-2.png" />
+    <Content Include="images\09-3.png" />
+    <Content Include="images\09.png" />
+    <Content Include="images\10-1.png" />
+    <Content Include="images\10-2.png" />
+    <Content Include="images\10-3.png" />
+    <Content Include="images\10.png" />
+    <Content Include="images\11-1.png" />
+    <Content Include="images\11-2.png" />
+    <Content Include="images\11-3.png" />
+    <Content Include="images\11.png" />
+    <Content Include="images\12-1.png" />
+    <Content Include="images\12-2.png" />
+    <Content Include="images\12-3.png" />
+    <Content Include="images\12.png" />
+    <Content Include="images\13-1.png" />
+    <Content Include="images\13-2.png" />
+    <Content Include="images\13-3.png" />
+    <Content Include="images\13.png" />
+    <Content Include="images\14-1.png" />
+    <Content Include="images\14-2.png" />
+    <Content Include="images\14-3.png" />
+    <Content Include="images\14.png" />
+    <Content Include="images\15-1.png" />
+    <Content Include="images\15-2.png" />
+    <Content Include="images\15-3.png" />
+    <Content Include="images\15.png" />
+    <Content Include="images\16-1.png" />
+    <Content Include="images\16-2.png" />
+    <Content Include="images\16-3.png" />
+    <Content Include="images\16.png" />
+    <Content Include="images\17-1.png" />
+    <Content Include="images\17-2.png" />
+    <Content Include="images\17-3.png" />
+    <Content Include="images\17.png" />
+    <Content Include="images\18-1.png" />
+    <Content Include="images\18-2.png" />
+    <Content Include="images\18-3.png" />
+    <Content Include="images\18.png" />
+    <Content Include="images\19-1.png" />
+    <Content Include="images\19-2.png" />
+    <Content Include="images\19-3.png" />
+    <Content Include="images\19.png" />
+    <Content Include="images\20-1.png" />
+    <Content Include="images\20-2.png" />
+    <Content Include="images\20-3.png" />
+    <Content Include="images\20.png" />
+    <Content Include="images\cat1.png" />
+    <Content Include="images\cat10.png" />
+    <Content Include="images\cat11.png" />
+    <Content Include="images\cat12.png" />
+    <Content Include="images\cat13.png" />
+    <Content Include="images\cat14.png" />
+    <Content Include="images\cat15.png" />
+    <Content Include="images\cat16.png" />
+    <Content Include="images\cat17.png" />
+    <Content Include="images\cat18.png" />
+    <Content Include="images\cat2.png" />
+    <Content Include="images\cat3.png" />
+    <Content Include="images\cat4.png" />
+    <Content Include="images\cat5.png" />
+    <Content Include="images\cat7.png" />
+    <Content Include="images\cat8.png" />
+    <Content Include="images\cat9.png" />
+    <Content Include="images\pic1.jpg" />
+    <Content Include="images\pic2.jpg" />
+    <Content Include="images\pic3.jpg" />
+    <Content Include="images\pic4.jpg" />
+    <Content Include="images\pic5.jpg" />
+    <Content Include="images\slide1.jpg" />
+    <Content Include="images\slide2.jpg" />
+    <Content Include="images\slide3.jpg" />
+    <Content Include="images\sub1.png" />
+    <Content Include="images\sub2.png" />
+    <Content Include="images\sub3.png" />
+    <Content Include="images\sub4.png" />
+    <Content Include="images\sub5.png" />
+    <Content Include="images\sub6.png" />
+    <Content Include="includes\general.js" />
+    <Content Include="includes\languages\english\images\admin.png" />
+    <Content Include="includes\languages\english\images\icon.gif" />
+    <Content Include="includes\modules\pages\product_info\jscript_textarea_counter.js" />
+    <Content Include="includes\templates\theme815\css\index_home.css" />
+    <Content Include="includes\templates\theme815\css\print_stylesheet.css" />
+    <Content Include="includes\templates\theme815\css\stylesheet.css" />
+    <Content Include="includes\templates\theme815\css\stylesheet_boxes.css" />
+    <Content Include="includes\templates\theme815\css\stylesheet_css_buttons.css" />
+    <Content Include="includes\templates\theme815\css\stylesheet_ezpages_footer_columns.css" />
+    <Content Include="includes\templates\theme815\css\stylesheet_header_menu.css" />
+    <Content Include="includes\templates\theme815\css\stylesheet_lightbox-0.5.css" />
+    <Content Include="includes\templates\theme815\css\stylesheet_main.css" />
+    <Content Include="includes\templates\theme815\css\stylesheet_social_media_icons.css" />
+    <Content Include="includes\templates\theme815\css\stylesheet_tm.css" />
+    <Content Include="includes\templates\theme815\favicon.ico" />
+    <Content Include="includes\templates\theme815\images\arr.png" />
+    <Content Include="includes\templates\theme815\images\arr1.png" />
+    <Content Include="includes\templates\theme815\images\btn_bg.jpg" />
+    <Content Include="includes\templates\theme815\images\cart_img2.png" />
+    <Content Include="includes\templates\theme815\images\cat_bg.png" />
+    <Content Include="includes\templates\theme815\images\cur-bg.gif" />
+    <Content Include="includes\templates\theme815\images\dark-arrows.png" />
+    <Content Include="includes\templates\theme815\images\dark-bullets.png" />
+    <Content Include="includes\templates\theme815\images\default-arrows.png" />
+    <Content Include="includes\templates\theme815\images\default-bullets.png" />
+    <Content Include="includes\templates\theme815\images\header_bg.png" />
+    <Content Include="includes\templates\theme815\images\icons\warning2.gif" />
+    <Content Include="includes\templates\theme815\images\icons\zoom-icon.png" />
+    <Content Include="includes\templates\theme815\images\image_bg.jpg" />
+    <Content Include="includes\templates\theme815\images\light-arrows.png" />
+    <Content Include="includes\templates\theme815\images\light-bullets.png" />
+    <Content Include="includes\templates\theme815\images\loading.gif" />
+    <Content Include="includes\templates\theme815\images\cart_img.png" />
+    <Content Include="includes\templates\theme815\images\logo.png" />
+    <Content Include="includes\templates\theme815\images\main_bg.jpg" />
+    <Content Include="includes\templates\theme815\images\menu_bg.jpg" />
+    <Content Include="includes\templates\theme815\images\message-bg.gif" />
+    <Content Include="includes\templates\theme815\images\search.png" />
+    <Content Include="includes\templates\theme815\images\search_bg.png" />
+    <Content Include="includes\templates\theme815\images\search_hover.png" />
+    <Content Include="includes\templates\theme815\images\stars_box_1.png" />
+    <Content Include="includes\templates\theme815\images\stars_box_2.png" />
+    <Content Include="includes\templates\theme815\images\stars_box_3.png" />
+    <Content Include="includes\templates\theme815\images\stars_box_4.png" />
+    <Content Include="includes\templates\theme815\images\stars_box_5.png" />
+    <Content Include="includes\templates\theme815\images\tel_ico.png" />
+    <Content Include="includes\templates\theme815\jscript\jscript_jquery-1.7.1.min.js" />
+    <Content Include="includes\templates\theme815\jscript\jscript_jquery.nivo.slider.pack.js" />
+    <Content Include="includes\templates\theme815\jscript\jscript_script.js" />
+    <Content Include="includes\templates\theme815\jscript\jscript_xdropdown_menu.js" />
+    <Content Include="includes\templates\theme815\jscript\jscript_xeasyTooltip.js" />
+    <Content Include="includes\templates\theme815\jscript\jscript_xjquery.easing.1.3.js" />
+    <Content Include="includes\templates\theme815\jscript\jscript_xjquery.jqtransform.js" />
+    <Content Include="includes\templates\theme815\jscript\jscript_xjquery.lightbox-0.5.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <None Include="Scripts\jquery-1.8.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.2.js" />
+    <Content Include="Scripts\jquery-1.8.2.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.20.js" />
+    <Content Include="Scripts\jquery-ui-1.8.20.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.min.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\knockout-2.1.0.debug.js" />
+    <Content Include="Scripts\knockout-2.1.0.js" />
+    <Content Include="Scripts\knockout-2.2.0.debug.js" />
+    <Content Include="Scripts\knockout-2.2.0.js" />
+    <Content Include="Scripts\modernizr-2.5.3.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Productos\Alimentos.cshtml" />
+    <Content Include="Views\Productos\CarroCompras.cshtml" />
+    <Content Include="Views\Productos\Detalle.cshtml" />
+    <Content Include="Views\Productos\DetalleVenta.cshtml" />
+    <Content Include="Views\Productos\Juguetes.cshtml" />
+    <Content Include="Views\Productos\MisCompras.cshtml" />
+    <Content Include="Views\Productos\ArtCompu.cshtml" />
+    <Content Include="Views\Plantillas\plantilla.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Pago\Index.cshtml" />
+    <Content Include="Views\Pago\Details.cshtml" />
+    <Content Include="Views\Pago\Create.cshtml" />
+    <Content Include="Views\Pago\Edit.cshtml" />
+    <Content Include="Views\Pago\Delete.cshtml" />
+    <Content Include="Views\Consulta\Index.cshtml" />
+    <Content Include="Views\Consulta\ExportReport.cshtml" />
+    <Content Include="Views\Consulta\ConsultaPedidoxCliente.cshtml" />
+    <Content Include="Views\Consulta\AUDIFONOS.cshtml" />
+    <Content Include="Views\Consulta\ARTCOMPU.cshtml" />
+    <Content Include="Views\Consulta\USB.cshtml" />
+    <Content Include="Views\Consulta\Clientes.cshtml" />
+    <Content Include="Views\FromMVC\Index.cshtml" />
+    <Content Include="Views\UsingWebForm\Index.cshtml" />
+    <Content Include="Views\Consulta\TopClientes.cshtml" />
+    <Content Include="Views\Consulta\TopProductos.cshtml" />
+    <Content Include="Views\Consulta\ConsultaPedidoxProducto.cshtml" />
+    <Content Include="Views\Home\index2.cshtml" />
+    <Content Include="Views\Home\index2error.cshtml" />
+    <Content Include="Views\Home\Mantenimiento.cshtml" />
+    <Content Include="Views\Productos\Monitores.cshtml" />
+    <Content Include="Views\Productos\Mouse.cshtml" />
+    <Content Include="Views\Productos\Parlantes.cshtml" />
+    <Content Include="Views\Productos\Teclados.cshtml" />
+    <Content Include="Views\Usuario\RegistrarUsuario.cshtml" />
+    <Content Include="Views\MantProd\Index.cshtml" />
+    <Content Include="Views\MantProd\Details.cshtml" />
+    <Content Include="Views\MantProd\Create.cshtml" />
+    <Content Include="Views\MantProd\Edit.cshtml" />
+    <Content Include="Views\MantProd\Delete.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Reports\generic.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>generic.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptConsultaClientePedido.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptConsultaClientePedido1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptConsultaProductoPedido.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptConsultaProductoPedido1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptDocumento.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptDocumento1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptTopClientes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTopClientes.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptTopProductos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptTopProductos.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_Pago1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Pago1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_Pago2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Pago2.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:5072/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

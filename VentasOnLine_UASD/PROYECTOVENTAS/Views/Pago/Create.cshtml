@@ -1,0 +1,191 @@
+﻿@model PROYECTOVENTAS.PAGO
+@{
+
+    List<PROYECTOVENTAS.Models.Producto> carro = (List<PROYECTOVENTAS.Models.Producto>)Session["carro"];
+    Layout = "~/Views/Plantillas/plantilla.cshtml";
+}
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <script src="@Url.Content("~/Scripts/jquery-ui.min.js")" type="text/javascript"></script>
+    <link href="@Url.Content("/Content/jquery-ui.min.css")" rel="stylesheet" type="text/css" />
+
+    @Styles.Render("../Content/css/bootstrap/bootstrap.css")
+    @Styles.Render("../Content/Site.css")
+
+    @Styles.Render("../Content/css/jquery.rating.css")
+
+</head>
+<body>
+    <td id="column-center" valign="top">
+        <div class="column-center-padding">
+            @using (Html.BeginForm("Create", "Pago"))
+            {
+
+                @Html.ValidationSummary(true)
+
+                <div class="editor-field">
+                    <div class="col-xs-8">
+
+                        <div class="tc1">
+                            <input class="check-box" data-val="true" data-val-required="The in_id_tipopaVisa field is required." id="in_id_tipopaVisa" onclick="check1(this)" name="in_id_tipopaVisa" type="checkbox" value="true"><input name="in_id_tipopaVisa" type="hidden" value="false">
+                            <span class="field-validation-valid" data-valmsg-for="in_id_tipopaVisa" data-valmsg-replace="true"></span>
+                        </div>
+                        <div class="tc2">
+                            <input class="check-box" data-val="true" data-val-required="The in_id_tipopaMastercard field is required." id="in_id_tipopaMastercard" onclick="check2(this)" name="in_id_tipopaMastercard" type="checkbox" value="true"><input name="in_id_tipopaMastercard" type="hidden" value="false">
+                            <span class="field-validation-valid" data-valmsg-for="in_id_tipopaMastercard" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+                </div>
+                <br>
+
+                <br />
+                <br />
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.documentopaga, "DocPaga")
+                </div>
+                <div class="editor-field">
+                    @Html.DropDownList("documentopaga", String.Empty)
+                    @Html.ValidationMessageFor(model => model.documentopaga)
+                </div>
+
+                <div class="editor-label">
+                    <br>
+                    @Html.Label("Número de Tarjeta")
+                </div>
+
+                <div class="editor-field">
+                    <input class="form-control ico_numTar" id="vc_dsc_numerotar" name="vc_dsc_numerotar" type="text" value="" onkeypress="return beta(event)">
+                    <span class="field-validation-valid" data-valmsg-for="vc_dsc_numerotar" data-valmsg-replace="true"></span>
+                </div>
+                <div class="editor-label">
+
+                    @Html.Label("CVC")
+
+                </div>
+
+                <div class="editor-field">
+                    <input class="form-control ico_ccvTar" id="cvc" name="cvc" type="text" maxlength="4" value="" onkeypress="return beta(event)">
+                    <span class="field-validation-valid" data-valmsg-for="cvc" data-valmsg-replace="true"></span>
+                </div>
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.fechaven)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.fechaven)
+                    @Html.ValidationMessageFor(model => model.fechaven)
+                </div>
+                <br />
+                <p>
+                    <!-- ko if: elegirMedioDePago -->
+                    <a href="@Url.Action("CarroCompras", "Productos")"> <input type="button" class="btnRegresar2" value="Regresar al carrito" /></a>
+                    <input type="submit" value="Pagar" class="btnSiguiente3" />
+                    <!-- /ko -->
+                    <!-- ko if: elegirCanjear --><!-- /ko -->
+                </p>
+            }
+        </div>
+
+        <div class="WEB_CONTE_pasarelaResumenPago">
+            <div class="WEB_pasarelaResumenPago" style="display: table; float: left;">
+                <div class="row">
+                    <div class="col-xs-9 nombre">Total de tu compra:</div>
+
+                    <div class="col-xs-3 valor"><span>RD$. @carro.Sum(Producto => (Producto.precioProducto * Producto.cantidad)).ToString("0.00")</span></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-9 nombre">Comisión de compra:</div>
+                    <div class="col-xs-3 valor3"><span data-bind="text: formatCurrency($root.ComisionOrdenCompra())">RD$. 0</span></div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-9 nombre2">Total a pagar:</div>
+
+                    <div class="col-xs-3 valor"><span> RD$. @carro.Sum(Producto => (Producto.precioProducto * Producto.cantidad)).ToString("0.00")</span></div>
+                </div>
+
+                <!-- ko ifnot: TipoPago() == 2  -->
+                <div class="row">
+                    <div class="col-xs-9 nombre">
+                        Tu compra será procesada en US$: <br>
+                        <span class="condiciones">(Tipo de cambio referencial <span data-bind="text: formatCurrency($root.TIPO_CAMBIO())">RD$. 3.20</span>)</span>
+                    </div>
+                    <div class="col-xs-3 valor4"><span>RD$. @carro.Sum(Producto => (Producto.precioProducto * Producto.cantidad / 3.20)).ToString("0.00")</span></div>
+                </div>
+                <!-- /ko -->
+            </div>
+        </div>
+
+        <div class="row WEB_pasarelaNav">
+            <div class="col-xs-6 WEB_info">
+                <p>* Toda la información de pago es segura</p>
+
+            </div>
+
+        </div>
+
+    </td>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#fechaven").datepicker();
+        });
+
+    </script>
+    <script>
+        function check1(box) {
+            if (box.checked) {
+
+                document.getElementById("in_id_tipopaMastercard").checked = false
+            }
+        }
+        function check2(box) {
+            if (box.checked) {
+                document.getElementById("in_id_tipopaVisa").checked = false
+            }
+        }
+
+
+    </script>
+</body>
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script>
+    $(function () {
+        $("#fechaven").datepicker({
+            dateFormat: 'mm/dd/yy'
+        });
+    });
+
+</script>
+
+
+<script type="text/javascript">
+
+    function beta(e) {
+        key = e.KeyCode || e.which;
+        teclado = String.fromCharCode(key);
+        numeros = "0123456789";
+        especiales = "8-37-39-46";
+        teclado_especial = false;
+        for (var i in especiales) {
+            if (key === especiales[i]) {
+                teclado_especial = true;
+                //break;
+            }
+        }
+        if (numeros.indexOf(teclado) === -1 && !teclado_especial) {
+            //alert (key);
+            return false;
+
+        }
+
+    }
+</script>

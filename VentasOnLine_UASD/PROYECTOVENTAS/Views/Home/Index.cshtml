@@ -1,0 +1,215 @@
+﻿    
+
+@{
+
+    ViewBag.Title = "CiberVentas"; 
+    Layout = "~/Views/Plantillas/plantilla.cshtml";
+}
+
+    @Styles.Render("~/Content/css/bootstrap/bootstrap.css")
+<td id="column-center" valign="top">
+    <div class="column-center-padding">
+        <div class="slider">
+
+            <script language="javascript" type="text/javascript">
+                jQuery(window).load(function () {
+                    jQuery('#slider').nivoSlider({
+                        effect: 'fold',
+                        animSpeed: 500,
+                        pauseTime: 4000,
+                        directionNav: false,
+                        directionNavHide: false,
+                        controlNav: true,
+                        pauseOnHover: true,
+                        captionOpacity: 0.8
+                    });
+                });
+
+            </script>
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <a href="#" class="nivo-imageLink" style="display: none;"><img src="images\slide1.jpg" alt="" width="930" height="410" style="display: none;"></a>
+                    <a href="#" class="nivo-imageLink" style="display: block;"><img src="images\slide2.jpg" alt="" width="930" height="410" style="display: none;"></a>
+                    <a href="#" class="nivo-imageLink" style="display: block;"><img src="images\slide3.jpg" alt="" width="930" height="410" style="display: none;"></a>
+                </div><div class="nivo-controlNav"><a class="nivo-control" rel="0">1</a><a class="nivo-control" rel="1">2</a><a class="nivo-control active" rel="2">3</a></div>
+            </div>
+        </div>
+        <div class="banners1">
+            <div class="item_1">
+                <a href="#"><img src="images\pic1.jpg" alt="Tablets Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor. COMPRAR AHORA!" title=" Tablets Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor. COMPRAR AHORA! " width="465" height="250"></a>
+                <a class="title" href="#"><span><h3>Tablets</h3><b>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor.</b><p>COMPRAR AHORA!</p></span></a>
+            </div><div class="item_2">
+                <a href="#"><img src="images\pic2.jpg" alt="Laptops Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor. COMPRAR AHORA!" title=" Laptops Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor. COMPRAR AHORA! " width="465" height="250"></a>
+                <a class="title" href="#"><span><h3>Laptops</h3><b>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor.</b><p>COMPRAR AHORA!</p></span></a>
+            </div><div class="item_3">
+                <a href="#"><img src="images\pic3.jpg" alt="Monitors Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor. COMPRAR AHORA!" title=" Monitors Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor. COMPRAR AHORA! " width="465" height="250"></a>
+                <a class="title" href="#"><span><h3>Monitors</h3><b>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor.</b><p>COMPRAR AHORA!</p></span></a>
+            </div><div class="item_4">
+                <a href="#"><img src="images\pic4.jpg" alt="System units Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor. COMPRAR AHORA!" title=" System units Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor. COMPRAR AHORA! " width="465" height="250"></a>
+                <a class="title" href="#"><span><h3>System units</h3><b>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor.</b><p>COMPRAR AHORA!</p></span></a>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="centerColumn" id="indexDefault">
+
+
+            <div id="indexDefaultMainContent"></div>
+
+            <div class="centerBoxWrapper" id="featuredProducts">
+                <h2 class="centerBoxHeading">Productos Destacados</h2>
+                <div class="centerBoxContentsFeatured centeredContent back first">
+                    <div class="product-col">
+                        <div class="img">
+                            <a href="#"><img src="images\01.png" alt="Lorem ipsum dolor sit amet conse ctetur adipisicing eli" title=" Lorem ipsum dolor sit amet conse ctetur adipisicing eli " width="147" height="147"></a>
+                        </div>
+                        <div class="prod-info">
+                            <a class="name" href="#">Lorem ipsum dolor sit amet conse ctetur adipisicing eli</a>
+                            <div class="text">
+                            </div>
+                            <div class="price">
+                                <strong><span class="normalprice">$550.00 </span><span class="productSpecialPrice">$522.40</span></strong>
+                            </div>
+                            <div class="product-buttons">
+                                <div class="button"><a href="#"><span class="cssButton button_add_to_cart" onmouseover="this.className='cssButtonHover button_add_to_cart button_add_to_cartHover'" onmouseout="this.className='cssButton button_add_to_cart'" style="width: 80px;">&nbsp;AÑADIR AL CARRO&nbsp;</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="centerBoxContentsFeatured centeredContent back ">
+                    <div class="product-col">
+                        <div class="img">
+                            <a href="#"><img src="images\02.png" alt="Lorem ipsum dolor sit amet conse ctetur adipisicing eli" title=" Lorem ipsum dolor sit amet conse ctetur adipisicing eli " width="147" height="147"></a>
+                        </div>
+                        <div class="prod-info">
+                            <a class="name" href="#">Lorem ipsum dolor sit amet conse ctetur adipisicing eli</a>
+                            <div class="text">
+                            </div>
+                            <div class="price">
+                                <strong><span class="normalprice">$160.00 </span><span class="productSpecialPrice">$105.40</span></strong>
+                            </div>
+                            <div class="product-buttons">
+                                <div class="button"><a href="#"><span class="cssButton button_add_to_cart" onmouseover="this.className='cssButtonHover button_add_to_cart button_add_to_cartHover'" onmouseout="this.className='cssButton button_add_to_cart'" style="width: 80px;">&nbsp;AÑADIR AL CARRO&nbsp;</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="centerBoxContentsFeatured centeredContent back ">
+                    <div class="product-col">
+                        <div class="img">
+                            <a href="#"><img src="images\03.png" alt="Lorem ipsum dolor sit amet conse ctetur adipisicing eli" title=" Lorem ipsum dolor sit amet conse ctetur adipisicing eli " width="147" height="147"></a>
+                        </div>
+                        <div class="prod-info">
+                            <a class="name" href="#">Lorem ipsum dolor sit amet conse ctetur adipisicing eli</a>
+                            <div class="text">
+                            </div>
+                            <div class="price">
+                                <strong>$241.00</strong>
+                            </div>
+                            <div class="product-buttons">
+                                <div class="button"><a href="#"><span class="cssButton button_add_to_cart" onmouseover="this.className='cssButtonHover button_add_to_cart button_add_to_cartHover'" onmouseout="this.className='cssButton button_add_to_cart'" style="width: 80px;">&nbsp;AÑADIR AL CARRO&nbsp;</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="centerBoxContentsFeatured centeredContent back ">
+                    <div class="product-col">
+                        <div class="img">
+                            <a href="#"><img src="images\04.png" alt="Lorem ipsum dolor sit amet conse ctetur adipisicing eli" title=" Lorem ipsum dolor sit amet conse ctetur adipisicing eli " width="147" height="147"></a>
+                        </div>
+                        <div class="prod-info">
+                            <a class="name" href="#">Lorem ipsum dolor sit amet conse ctetur adipisicing eli</a>
+                            <div class="text">
+                            </div>
+                            <div class="price">
+                                <strong>$651.00</strong>
+                            </div>
+                            <div class="product-buttons">
+                                <div class="button"><a href="#"><span class="cssButton button_add_to_cart" onmouseover="this.className='cssButtonHover button_add_to_cart button_add_to_cartHover'" onmouseout="this.className='cssButton button_add_to_cart'" style="width: 80px;">&nbsp;AÑADIR AL CARRO&nbsp;</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br class="clearBoth">
+                <div class="centerBoxContentsFeatured centeredContent back first">
+                    <div class="product-col">
+                        <div class="img">
+                            <a href="#"><img src="images\05.png" alt="Lorem ipsum dolor sit amet conse ctetur adipisicing eli" title=" Lorem ipsum dolor sit amet conse ctetur adipisicing eli " width="147" height="147"></a>
+                        </div>
+                        <div class="prod-info">
+                            <a class="name" href="#">Lorem ipsum dolor sit amet conse ctetur adipisicing eli</a>
+                            <div class="text">
+                            </div>
+                            <div class="price">
+                                <strong>$211.00</strong>
+                            </div>
+                            <div class="product-buttons">
+                                <div class="button"><a href="#"><span class="cssButton button_add_to_cart" onmouseover="this.className='cssButtonHover button_add_to_cart button_add_to_cartHover'" onmouseout="this.className='cssButton button_add_to_cart'" style="width: 80px;">&nbsp;AÑADIR AL CARRO&nbsp;</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="centerBoxContentsFeatured centeredContent back ">
+                    <div class="product-col">
+                        <div class="img">
+                            <a href="#"><img src="images\06.png" alt="Lorem ipsum dolor sit amet conse ctetur adipisicing eli" title=" Lorem ipsum dolor sit amet conse ctetur adipisicing eli " width="147" height="147"></a>
+                        </div>
+                        <div class="prod-info">
+                            <a class="name" href="#">Lorem ipsum dolor sit amet conse ctetur adipisicing eli</a>
+                            <div class="text">
+                            </div>
+                            <div class="price">
+                                <strong>$83.00</strong>
+                            </div>
+                            <div class="product-buttons">
+                                <div class="button"><a href="#"><span class="cssButton button_add_to_cart" onmouseover="this.className='cssButtonHover button_add_to_cart button_add_to_cartHover'" onmouseout="this.className='cssButton button_add_to_cart'" style="width: 80px;">&nbsp;AÑADIR AL CARRO&nbsp;</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="centerBoxContentsFeatured centeredContent back ">
+                    <div class="product-col">
+                        <div class="img">
+                            <a href="http#"><img src="images\07.png" alt="Lorem ipsum dolor sit amet conse ctetur adipisicing eli" title=" Lorem ipsum dolor sit amet conse ctetur adipisicing eli " width="147" height="147"></a>
+                        </div>
+                        <div class="prod-info">
+                            <a class="name" href="#">Lorem ipsum dolor sit amet conse ctetur adipisicing eli</a>
+                            <div class="text">
+                            </div>
+                            <div class="price">
+                                <strong>$503.00</strong>
+                            </div>
+                            <div class="product-buttons">
+                                <div class="button"><a href="#"><span class="cssButton button_add_to_cart" onmouseover="this.className='cssButtonHover button_add_to_cart button_add_to_cartHover'" onmouseout="this.className='cssButton button_add_to_cart'" style="width: 80px;">&nbsp;AÑADIR AL CARRO&nbsp;</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="centerBoxContentsFeatured centeredContent back ">
+                    <div class="product-col">
+                        <div class="img">
+                            <a href="#"><img src="images\08.png" alt="Lorem ipsum dolor sit amet conse ctetur adipisicing eli" title=" Lorem ipsum dolor sit amet conse ctetur adipisicing eli " width="147" height="147"></a>
+                        </div>
+                        <div class="prod-info">
+                            <a class="name" href="#">Lorem ipsum dolor sit amet conse ctetur adipisicing eli</a>
+                            <div class="text">
+                            </div>
+                            <div class="price">
+                                <strong>$104.00</strong>
+                            </div>
+                            <div class="product-buttons">
+                                <div class="button"><a href="#"><span class="cssButton button_add_to_cart" onmouseover="this.className='cssButtonHover button_add_to_cart button_add_to_cartHover'" onmouseout="this.className='cssButton button_add_to_cart'" style="width: 80px;">&nbsp;AÑADIR AL CARRO&nbsp;</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br class="clearBoth">
+            </div>
+
+        </div> <div class="clear"></div>
+
+    </div>
+</td>

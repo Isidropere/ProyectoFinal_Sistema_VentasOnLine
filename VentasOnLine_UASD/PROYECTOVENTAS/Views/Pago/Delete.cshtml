@@ -1,0 +1,95 @@
+﻿@model PROYECTOVENTAS.PAGO
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<fieldset>
+    <legend>PAGO</legend>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.in_id_pago)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.in_id_pago)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.tb_usuario1.correoUsuario)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.tb_usuario1.correoUsuario)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.tb_usuario.correoUsuario)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.tb_usuario.correoUsuario)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.in_id_tipopaVisa)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.in_id_tipopaVisa)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.in_id_tipopaMastercard)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.in_id_tipopaMastercard)
+    </div>
+
+    @*<div class="display-label">
+        @Html.DisplayNameFor(model => model.banco)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.banco)
+    </div>*@
+
+    @*<div class="display-label">
+        @Html.DisplayNameFor(model => model.vc_dsc_numerotar)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.vc_dsc_numerotar)
+    </div>*@
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.dt_fechaEmision)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.dt_fechaEmision)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.cvc)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.cvc)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.in_id_estado)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.in_id_estado)
+    </div>
+
+    <div class="display-label">
+        @Html.DisplayNameFor(model => model.fechaven)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.fechaven)
+    </div>
+</fieldset>
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" /> |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

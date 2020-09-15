@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="COMPUVENTASModel1StoreContainer" CdmEntityContainer="COMPUVENTASEntities1">
+    <EntitySetMapping Name="DETALLEPAGO">
+      <EntityTypeMapping TypeName="COMPUVENTASModel1.DETALLEPAGO">
+        <MappingFragment StoreEntitySet="DETALLEPAGO">
+          <ScalarProperty Name="in_id_pago" ColumnName="in_id_pago" />
+          <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="subtotal" ColumnName="subtotal" />
+          <ScalarProperty Name="estadoVentaxProd" ColumnName="estadoVentaxProd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DocPaga">
+      <EntityTypeMapping TypeName="COMPUVENTASModel1.DocPaga">
+        <MappingFragment StoreEntitySet="DocPaga">
+          <ScalarProperty Name="documentopaga" ColumnName="documentopaga" />
+          <ScalarProperty Name="descri" ColumnName="descri" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PAGO">
+      <EntityTypeMapping TypeName="COMPUVENTASModel1.PAGO">
+        <MappingFragment StoreEntitySet="PAGO">
+          <ScalarProperty Name="in_id_pago" ColumnName="in_id_pago" />
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="in_id_tipopaVisa" ColumnName="in_id_tipopaVisa" />
+          <ScalarProperty Name="in_id_tipopaMastercard" ColumnName="in_id_tipopaMastercard" />
+          <ScalarProperty Name="documentopaga" ColumnName="documentopaga" />
+          <ScalarProperty Name="vc_dsc_numerotar" ColumnName="vc_dsc_numerotar" />
+          <ScalarProperty Name="dt_fechaEmision" ColumnName="dt_fechaEmision" />
+          <ScalarProperty Name="cvc" ColumnName="cvc" />
+          <ScalarProperty Name="in_id_estado" ColumnName="in_id_estado" />
+          <ScalarProperty Name="fechaven" ColumnName="fechaven" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PAGO1">
+      <EntityTypeMapping TypeName="COMPUVENTASModel1.PAGO1">
+        <MappingFragment StoreEntitySet="PAGO1">
+          <ScalarProperty Name="in_id_pago" ColumnName="in_id_pago" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+          <ScalarProperty Name="vc_dsc_numerotar" ColumnName="vc_dsc_numerotar" />
+          <ScalarProperty Name="cvc" ColumnName="cvc" />
+          <ScalarProperty Name="in_id_estado" ColumnName="in_id_estado" />
+          <ScalarProperty Name="documen" ColumnName="documen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="pago2">
+      <EntityTypeMapping TypeName="COMPUVENTASModel1.pago2">
+        <MappingFragment StoreEntitySet="pago2">
+          <ScalarProperty Name="in_id_pago" ColumnName="in_id_pago" />
+          <ScalarProperty Name="idCliente" ColumnName="idCliente" />
+          <ScalarProperty Name="tipo" ColumnName="tipo" />
+          <ScalarProperty Name="vc_dsc_numerotar" ColumnName="vc_dsc_numerotar" />
+          <ScalarProperty Name="cvc" ColumnName="cvc" />
+          <ScalarProperty Name="in_id_estado" ColumnName="in_id_estado" />
+          <ScalarProperty Name="documen" ColumnName="documen" />
+          <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_categoria">
+      <EntityTypeMapping TypeName="COMPUVENTASModel1.tb_categoria">
+        <MappingFragment StoreEntitySet="tb_categoria">
+          <ScalarProperty Name="CategoriaId" ColumnName="CategoriaId" />
+          <ScalarProperty Name="descCategoria" ColumnName="descCategoria" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_distrito">
+      <EntityTypeMapping TypeName="COMPUVENTASModel1.tb_distrito">
+        <MappingFragment StoreEntitySet="tb_distrito">
+          <ScalarProperty Name="DistritoId" ColumnName="DistritoId" />
+          <ScalarProperty Name="nomdistrito" ColumnName="nomdistrito" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_producto">
+      <EntityTypeMapping TypeName="COMPUVENTASModel1.tb_producto">
+        <MappingFragment StoreEntitySet="tb_producto">
+          <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+          <ScalarProperty Name="nomProducto" ColumnName="nomProducto" />
+          <ScalarProperty Name="descProducto" ColumnName="descProducto" />
+          <ScalarProperty Name="precioProducto" ColumnName="precioProducto" />
+          <ScalarProperty Name="stockProducto" ColumnName="stockProducto" />
+          <ScalarProperty Name="idCategoria" ColumnName="idCategoria" />
+          <ScalarProperty Name="estadoProducto" ColumnName="estadoProducto" />
+          <ScalarProperty Name="ProveedorId" ColumnName="ProveedorId" />
+          <ScalarProperty Name="ruta_img" ColumnName="ruta_img" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_proveedor">
+      <EntityTypeMapping TypeName="COMPUVENTASModel1.tb_proveedor">
+        <MappingFragment StoreEntitySet="tb_proveedor">
+          <ScalarProperty Name="ProveedorId" ColumnName="ProveedorId" />
+          <ScalarProperty Name="razonSocialProveedor" ColumnName="razonSocialProveedor" />
+          <ScalarProperty Name="direccionProveedor" ColumnName="direccionProveedor" />
+          <ScalarProperty Name="telefonoProveedor" ColumnName="telefonoProveedor" />
+          <ScalarProperty Name="representanteProveedor" ColumnName="representanteProveedor" />
+          <ScalarProperty Name="telefrepreProveedor" ColumnName="telefrepreProveedor" />
+          <ScalarProperty Name="DistritoId" ColumnName="DistritoId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_rol">
+      <EntityTypeMapping TypeName="COMPUVENTASModel1.tb_rol">
+        <MappingFragment StoreEntitySet="tb_rol">
+          <ScalarProperty Name="idRol" ColumnName="idRol" />
+          <ScalarProperty Name="descRol" ColumnName="descRol" />
+          <ScalarProperty Name="estadoRol" ColumnName="estadoRol" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_usuario">
+      <EntityTypeMapping TypeName="COMPUVENTASModel1.tb_usuario">
+        <MappingFragment StoreEntitySet="tb_usuario">
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+          <ScalarProperty Name="correoUsuario" ColumnName="correoUsuario" />
+          <ScalarProperty Name="claveUsuario" ColumnName="claveUsuario" />
+          <ScalarProperty Name="nombresUsuario" ColumnName="nombresUsuario" />
+          <ScalarProperty Name="apePatUsuario" ColumnName="apePatUsuario" />
+          <ScalarProperty Name="apeMatUsuario" ColumnName="apeMatUsuario" />
+          <ScalarProperty Name="dniUsuario" ColumnName="dniUsuario" />
+          <ScalarProperty Name="fecNacimientoUsuario" ColumnName="fecNacimientoUsuario" />
+          <ScalarProperty Name="telefonoUsuario" ColumnName="telefonoUsuario" />
+          <ScalarProperty Name="celularUsuario" ColumnName="celularUsuario" />
+          <ScalarProperty Name="idRol" ColumnName="idRol" />
+          <ScalarProperty Name="verificadoUsuario" ColumnName="verificadoUsuario" />
+          <ScalarProperty Name="estadoUsuario" ColumnName="estadoUsuario" />
+          <ScalarProperty Name="idDistrito" ColumnName="idDistrito" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_venta">
+      <EntityTypeMapping TypeName="COMPUVENTASModel1.tb_venta">
+        <MappingFragment StoreEntitySet="tb_venta">
+          <ScalarProperty Name="idVenta" ColumnName="idVenta" />
+          <ScalarProperty Name="idUsuario" ColumnName="idUsuario" />
+          <ScalarProperty Name="fechaVenta" ColumnName="fechaVenta" />
+          <ScalarProperty Name="estadoVenta" ColumnName="estadoVenta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_ventaxproducto">
+      <EntityTypeMapping TypeName="COMPUVENTASModel1.tb_ventaxproducto">
+        <MappingFragment StoreEntitySet="tb_ventaxproducto">
+          <ScalarProperty Name="idVenta" ColumnName="idVenta" />
+          <ScalarProperty Name="idProducto" ColumnName="idProducto" />
+          <ScalarProperty Name="cantidad" ColumnName="cantidad" />
+          <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="subtotal" ColumnName="subtotal" />
+          <ScalarProperty Name="estadoVentaxProd" ColumnName="estadoVentaxProd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
